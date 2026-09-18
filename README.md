@@ -1,4 +1,4 @@
-![RuneBench with Jev](docs/media/cover.png)
+![JevScape: let AI play RuneScape for $0.20 per hour](docs/media/cover.jpg)
 
 # RuneBench with Jev
 
