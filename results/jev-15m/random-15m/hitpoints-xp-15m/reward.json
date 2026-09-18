@@ -1,0 +1,5747 @@
+{
+  "skill": "Hitpoints",
+  "peakXpRate": 74,
+  "xp": 89292,
+  "level": 64,
+  "verifierStartTime": "2026-09-18T07:36:23.903Z",
+  "tracking": {
+    "botName": "agent2",
+    "startTime": "2026-09-18T07:21:19.255Z",
+    "samples": [
+      {
+        "timestamp": "2026-09-18T07:21:19.255Z",
+        "elapsedMs": 0,
+        "skills": {
+          "Attack": {
+            "level": 10,
+            "xp": 980
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 20,
+            "xp": 3105
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 72,
+        "gold": 0,
+        "inventoryGold": 0,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:21:34.257Z",
+        "elapsedMs": 15002,
+        "skills": {
+          "Attack": {
+            "level": 10,
+            "xp": 980
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 20,
+            "xp": 3105
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 17,
+            "xp": 2400
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 88,
+        "gold": 36,
+        "inventoryGold": 36,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:21:49.257Z",
+        "elapsedMs": 30002,
+        "skills": {
+          "Attack": {
+            "level": 14,
+            "xp": 1780
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 20,
+            "xp": 3365
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 23,
+            "xp": 4200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 98,
+        "gold": 63,
+        "inventoryGold": 63,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:22:04.258Z",
+        "elapsedMs": 45003,
+        "skills": {
+          "Attack": {
+            "level": 29,
+            "xp": 6780
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 25,
+            "xp": 4990
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 23,
+            "xp": 4200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 118,
+        "gold": 63,
+        "inventoryGold": 63,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:22:19.259Z",
+        "elapsedMs": 60004,
+        "skills": {
+          "Attack": {
+            "level": 35,
+            "xp": 10880
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 28,
+            "xp": 6322
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 23,
+            "xp": 4200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 127,
+        "gold": 63,
+        "inventoryGold": 63,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:22:34.261Z",
+        "elapsedMs": 75006,
+        "skills": {
+          "Attack": {
+            "level": 40,
+            "xp": 15880
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 30,
+            "xp": 7947
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 23,
+            "xp": 4200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 134,
+        "gold": 63,
+        "inventoryGold": 63,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:22:49.261Z",
+        "elapsedMs": 90006,
+        "skills": {
+          "Attack": {
+            "level": 43,
+            "xp": 20080
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 33,
+            "xp": 9312
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 23,
+            "xp": 4200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 140,
+        "gold": 63,
+        "inventoryGold": 63,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:23:04.263Z",
+        "elapsedMs": 105008,
+        "skills": {
+          "Attack": {
+            "level": 43,
+            "xp": 20080
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 33,
+            "xp": 9312
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 33,
+            "xp": 10000
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 150,
+        "gold": 150,
+        "inventoryGold": 150,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:23:19.263Z",
+        "elapsedMs": 120008,
+        "skills": {
+          "Attack": {
+            "level": 43,
+            "xp": 20080
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 33,
+            "xp": 9312
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 38,
+            "xp": 14000
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 155,
+        "gold": 210,
+        "inventoryGold": 210,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:23:34.265Z",
+        "elapsedMs": 135010,
+        "skills": {
+          "Attack": {
+            "level": 44,
+            "xp": 21680
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 33,
+            "xp": 9832
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 40,
+            "xp": 15800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 158,
+        "gold": 237,
+        "inventoryGold": 237,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:23:49.266Z",
+        "elapsedMs": 150011,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 35,
+            "xp": 11360
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 40,
+            "xp": 16400
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 163,
+        "gold": 246,
+        "inventoryGold": 246,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:24:04.267Z",
+        "elapsedMs": 165012,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 15,
+            "xp": 1860
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 35,
+            "xp": 11360
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 44,
+            "xp": 22000
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 167,
+        "gold": 330,
+        "inventoryGold": 330,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:24:19.269Z",
+        "elapsedMs": 180014,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 19,
+            "xp": 3060
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 36,
+            "xp": 11750
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 173,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:24:34.271Z",
+        "elapsedMs": 195016,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 31,
+            "xp": 8160
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 37,
+            "xp": 13407
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 186,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:24:49.273Z",
+        "elapsedMs": 210018,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 35,
+            "xp": 11660
+          },
+          "Strength": {
+            "level": 10,
+            "xp": 980
+          },
+          "Hitpoints": {
+            "level": 38,
+            "xp": 14545
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 191,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:25:04.274Z",
+        "elapsedMs": 225019,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 21,
+            "xp": 3580
+          },
+          "Hitpoints": {
+            "level": 40,
+            "xp": 15877
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 206,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:25:19.275Z",
+        "elapsedMs": 240020,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 35,
+            "xp": 11080
+          },
+          "Hitpoints": {
+            "level": 42,
+            "xp": 18337
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 222,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:25:34.275Z",
+        "elapsedMs": 255020,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 36,
+            "xp": 12080
+          },
+          "Hitpoints": {
+            "level": 42,
+            "xp": 18662
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 223,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:25:49.276Z",
+        "elapsedMs": 270021,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 37,
+            "xp": 12680
+          },
+          "Hitpoints": {
+            "level": 42,
+            "xp": 18857
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 224,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:26:04.278Z",
+        "elapsedMs": 285023,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 37,
+            "xp": 12680
+          },
+          "Hitpoints": {
+            "level": 42,
+            "xp": 18857
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 224,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:26:19.280Z",
+        "elapsedMs": 300025,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 39,
+            "xp": 14680
+          },
+          "Hitpoints": {
+            "level": 42,
+            "xp": 19507
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 226,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:26:34.282Z",
+        "elapsedMs": 315027,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 39,
+            "xp": 14680
+          },
+          "Hitpoints": {
+            "level": 42,
+            "xp": 19507
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 226,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:26:49.284Z",
+        "elapsedMs": 330029,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26380
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 43,
+            "xp": 20280
+          },
+          "Hitpoints": {
+            "level": 44,
+            "xp": 21342
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 232,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:27:04.286Z",
+        "elapsedMs": 345031,
+        "skills": {
+          "Attack": {
+            "level": 47,
+            "xp": 26780
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 46,
+            "xp": 25280
+          },
+          "Hitpoints": {
+            "level": 45,
+            "xp": 23110
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 236,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:27:19.287Z",
+        "elapsedMs": 360032,
+        "skills": {
+          "Attack": {
+            "level": 51,
+            "xp": 36980
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 46,
+            "xp": 25280
+          },
+          "Hitpoints": {
+            "level": 47,
+            "xp": 26452
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 242,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:27:34.288Z",
+        "elapsedMs": 375033,
+        "skills": {
+          "Attack": {
+            "level": 52,
+            "xp": 37780
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 49,
+            "xp": 30680
+          },
+          "Hitpoints": {
+            "level": 48,
+            "xp": 28470
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 247,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:27:49.290Z",
+        "elapsedMs": 390035,
+        "skills": {
+          "Attack": {
+            "level": 52,
+            "xp": 37780
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 49,
+            "xp": 30680
+          },
+          "Hitpoints": {
+            "level": 48,
+            "xp": 28470
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 247,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:28:04.290Z",
+        "elapsedMs": 405035,
+        "skills": {
+          "Attack": {
+            "level": 52,
+            "xp": 37780
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 51,
+            "xp": 37380
+          },
+          "Hitpoints": {
+            "level": 49,
+            "xp": 30665
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 250,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:28:19.291Z",
+        "elapsedMs": 420036,
+        "skills": {
+          "Attack": {
+            "level": 52,
+            "xp": 37780
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 54,
+            "xp": 44580
+          },
+          "Hitpoints": {
+            "level": 50,
+            "xp": 33027
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 254,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:28:34.292Z",
+        "elapsedMs": 435037,
+        "skills": {
+          "Attack": {
+            "level": 52,
+            "xp": 37780
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 56,
+            "xp": 52180
+          },
+          "Hitpoints": {
+            "level": 51,
+            "xp": 35527
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 257,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:28:49.294Z",
+        "elapsedMs": 450039,
+        "skills": {
+          "Attack": {
+            "level": 52,
+            "xp": 37780
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 58,
+            "xp": 60080
+          },
+          "Hitpoints": {
+            "level": 52,
+            "xp": 38122
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 260,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:29:04.296Z",
+        "elapsedMs": 465041,
+        "skills": {
+          "Attack": {
+            "level": 53,
+            "xp": 40780
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 52,
+            "xp": 39952
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 262,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:29:19.297Z",
+        "elapsedMs": 480042,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 37,
+            "xp": 13160
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 53,
+            "xp": 42390
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 265,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:29:34.298Z",
+        "elapsedMs": 495043,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 45,
+            "xp": 24360
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 54,
+            "xp": 46075
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 274,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:29:49.298Z",
+        "elapsedMs": 510043,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 47,
+            "xp": 27960
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 55,
+            "xp": 47260
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 277,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:30:04.299Z",
+        "elapsedMs": 525044,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 51,
+            "xp": 37360
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 56,
+            "xp": 50315
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 282,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:30:19.301Z",
+        "elapsedMs": 540046,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 55,
+            "xp": 48160
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 57,
+            "xp": 53825
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 287,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:30:34.301Z",
+        "elapsedMs": 555046,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 56,
+            "xp": 51760
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 57,
+            "xp": 54995
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 288,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:30:49.303Z",
+        "elapsedMs": 570048,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 56,
+            "xp": 51760
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 57,
+            "xp": 54995
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 45,
+            "xp": 23200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 288,
+        "gold": 376,
+        "inventoryGold": 376,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:31:04.305Z",
+        "elapsedMs": 585050,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 56,
+            "xp": 51760
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 57,
+            "xp": 54995
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 47,
+            "xp": 27000
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 290,
+        "gold": 433,
+        "inventoryGold": 433,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:31:19.307Z",
+        "elapsedMs": 600052,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 58,
+            "xp": 59060
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 57,
+            "xp": 57400
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 47,
+            "xp": 27200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 292,
+        "gold": 436,
+        "inventoryGold": 436,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:31:34.309Z",
+        "elapsedMs": 615054,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 59,
+            "xp": 65060
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 58,
+            "xp": 59372
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 47,
+            "xp": 27200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 294,
+        "gold": 436,
+        "inventoryGold": 436,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:31:49.311Z",
+        "elapsedMs": 630056,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 60,
+            "xp": 69660
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 58,
+            "xp": 60880
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 47,
+            "xp": 27200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 295,
+        "gold": 436,
+        "inventoryGold": 436,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:32:04.313Z",
+        "elapsedMs": 645058,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 60,
+            "xp": 70160
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 58,
+            "xp": 61045
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 47,
+            "xp": 27200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 295,
+        "gold": 436,
+        "inventoryGold": 436,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:32:19.314Z",
+        "elapsedMs": 660059,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 62,
+            "xp": 77660
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 59,
+            "xp": 63515
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 47,
+            "xp": 27200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 298,
+        "gold": 436,
+        "inventoryGold": 436,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:32:34.316Z",
+        "elapsedMs": 675061,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 63,
+            "xp": 83960
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 59,
+            "xp": 65580
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 47,
+            "xp": 27200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 299,
+        "gold": 436,
+        "inventoryGold": 436,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:32:49.316Z",
+        "elapsedMs": 690061,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 60,
+            "xp": 68080
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 47,
+            "xp": 28000
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 301,
+        "gold": 448,
+        "inventoryGold": 448,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:33:04.319Z",
+        "elapsedMs": 705064,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 60,
+            "xp": 68080
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 49,
+            "xp": 32600
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 303,
+        "gold": 517,
+        "inventoryGold": 517,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:33:19.338Z",
+        "elapsedMs": 720083,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 59,
+            "xp": 62680
+          },
+          "Hitpoints": {
+            "level": 60,
+            "xp": 68080
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 51,
+            "xp": 36000
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 305,
+        "gold": 568,
+        "inventoryGold": 568,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:33:34.347Z",
+        "elapsedMs": 735092,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 60,
+            "xp": 67780
+          },
+          "Hitpoints": {
+            "level": 60,
+            "xp": 69757
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 52,
+            "xp": 38200
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 307,
+        "gold": 601,
+        "inventoryGold": 601,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:33:49.351Z",
+        "elapsedMs": 750096,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 61,
+            "xp": 74780
+          },
+          "Hitpoints": {
+            "level": 61,
+            "xp": 72060
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 52,
+            "xp": 38400
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 309,
+        "gold": 604,
+        "inventoryGold": 604,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:34:04.354Z",
+        "elapsedMs": 765099,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 61,
+            "xp": 74780
+          },
+          "Hitpoints": {
+            "level": 61,
+            "xp": 72060
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 53,
+            "xp": 42800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 310,
+        "gold": 670,
+        "inventoryGold": 670,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:34:19.355Z",
+        "elapsedMs": 780100,
+        "skills": {
+          "Attack": {
+            "level": 55,
+            "xp": 48280
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 62,
+            "xp": 80780
+          },
+          "Hitpoints": {
+            "level": 61,
+            "xp": 74030
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 54,
+            "xp": 43800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 312,
+        "gold": 685,
+        "inventoryGold": 685,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:34:34.357Z",
+        "elapsedMs": 795102,
+        "skills": {
+          "Attack": {
+            "level": 56,
+            "xp": 50980
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 63,
+            "xp": 84880
+          },
+          "Hitpoints": {
+            "level": 62,
+            "xp": 76247
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 54,
+            "xp": 43800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 315,
+        "gold": 685,
+        "inventoryGold": 685,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:34:49.359Z",
+        "elapsedMs": 810104,
+        "skills": {
+          "Attack": {
+            "level": 57,
+            "xp": 55180
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 63,
+            "xp": 84880
+          },
+          "Hitpoints": {
+            "level": 62,
+            "xp": 77612
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 54,
+            "xp": 43800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 316,
+        "gold": 685,
+        "inventoryGold": 685,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:35:04.360Z",
+        "elapsedMs": 825105,
+        "skills": {
+          "Attack": {
+            "level": 58,
+            "xp": 57580
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 63,
+            "xp": 84880
+          },
+          "Hitpoints": {
+            "level": 62,
+            "xp": 78392
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 54,
+            "xp": 43800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 317,
+        "gold": 685,
+        "inventoryGold": 685,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:35:19.362Z",
+        "elapsedMs": 840107,
+        "skills": {
+          "Attack": {
+            "level": 60,
+            "xp": 67780
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 63,
+            "xp": 84880
+          },
+          "Hitpoints": {
+            "level": 63,
+            "xp": 81707
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 54,
+            "xp": 43800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 320,
+        "gold": 685,
+        "inventoryGold": 685,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:35:34.363Z",
+        "elapsedMs": 855108,
+        "skills": {
+          "Attack": {
+            "level": 61,
+            "xp": 71980
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 63,
+            "xp": 84880
+          },
+          "Hitpoints": {
+            "level": 63,
+            "xp": 83072
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 54,
+            "xp": 43800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 321,
+        "gold": 685,
+        "inventoryGold": 685,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:35:49.365Z",
+        "elapsedMs": 870110,
+        "skills": {
+          "Attack": {
+            "level": 61,
+            "xp": 71980
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 63,
+            "xp": 84880
+          },
+          "Hitpoints": {
+            "level": 63,
+            "xp": 83072
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 54,
+            "xp": 43800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 321,
+        "gold": 685,
+        "inventoryGold": 685,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:36:04.366Z",
+        "elapsedMs": 885111,
+        "skills": {
+          "Attack": {
+            "level": 61,
+            "xp": 71980
+          },
+          "Defence": {
+            "level": 64,
+            "xp": 91560
+          },
+          "Strength": {
+            "level": 64,
+            "xp": 93380
+          },
+          "Hitpoints": {
+            "level": 63,
+            "xp": 85870
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 54,
+            "xp": 43800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 322,
+        "gold": 685,
+        "inventoryGold": 685,
+        "bankGold": 0
+      },
+      {
+        "timestamp": "2026-09-18T07:36:19.366Z",
+        "elapsedMs": 900111,
+        "skills": {
+          "Attack": {
+            "level": 61,
+            "xp": 71980
+          },
+          "Defence": {
+            "level": 65,
+            "xp": 99460
+          },
+          "Strength": {
+            "level": 65,
+            "xp": 95380
+          },
+          "Hitpoints": {
+            "level": 64,
+            "xp": 89097
+          },
+          "Ranged": {
+            "level": 1,
+            "xp": 0
+          },
+          "Prayer": {
+            "level": 1,
+            "xp": 0
+          },
+          "Magic": {
+            "level": 1,
+            "xp": 0
+          },
+          "Cooking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Woodcutting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fletching": {
+            "level": 1,
+            "xp": 0
+          },
+          "Fishing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Firemaking": {
+            "level": 1,
+            "xp": 0
+          },
+          "Crafting": {
+            "level": 1,
+            "xp": 0
+          },
+          "Smithing": {
+            "level": 1,
+            "xp": 0
+          },
+          "Mining": {
+            "level": 1,
+            "xp": 0
+          },
+          "Herblore": {
+            "level": 1,
+            "xp": 0
+          },
+          "Agility": {
+            "level": 1,
+            "xp": 0
+          },
+          "Thieving": {
+            "level": 54,
+            "xp": 43800
+          },
+          "Stat18": {
+            "level": 1,
+            "xp": 0
+          },
+          "Stat19": {
+            "level": 1,
+            "xp": 0
+          },
+          "Runecraft": {
+            "level": 1,
+            "xp": 0
+          }
+        },
+        "totalLevel": 325,
+        "gold": 685,
+        "inventoryGold": 685,
+        "bankGold": 0
+      }
+    ]
+  }
+}

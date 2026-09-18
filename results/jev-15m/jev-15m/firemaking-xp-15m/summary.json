@@ -1,0 +1,43 @@
+{
+  "skill": "Firemaking",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 96,
+  "xp_start": 0,
+  "xp_end": 88000,
+  "xp_gained": 88000,
+  "level_start": 1,
+  "level_end": 64,
+  "peak_window_xp_per_min_normalized": 278,
+  "jev_calls": 96,
+  "jev_input_tokens": 299043,
+  "jev_output_tokens": 6852,
+  "jev_cost_usd": 0.01256,
+  "jev_seconds": 21.7,
+  "action_counts": {
+    "chop_regular_trees_lumbridge": 1,
+    "burn_logs_here": 20,
+    "chop_oak_trees_lumbridge": 4,
+    "chop_willow_trees_lumbridge": 15,
+    "drop_gathered_items": 1,
+    "sell_unneeded_gear_lumbridge": 1,
+    "pickpocket_men_lumbridge": 21,
+    "eat_food": 1,
+    "buy_axe_bobs_lumbridge": 14,
+    "rest_to_recover_hitpoints": 18
+  },
+  "action_xp": {
+    "chop_regular_trees_lumbridge": 0,
+    "burn_logs_here": 88000,
+    "chop_oak_trees_lumbridge": 0,
+    "chop_willow_trees_lumbridge": 0,
+    "drop_gathered_items": 0,
+    "sell_unneeded_gear_lumbridge": 0,
+    "pickpocket_men_lumbridge": 0,
+    "eat_food": 0,
+    "buy_axe_bobs_lumbridge": 0,
+    "rest_to_recover_hitpoints": 0
+  },
+  "deaths": 0
+}

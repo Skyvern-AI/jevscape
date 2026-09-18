@@ -1,0 +1,35 @@
+{
+  "skill": "Mining",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 76,
+  "xp_start": 0,
+  "xp_end": 361375,
+  "xp_gained": 361375,
+  "level_start": 1,
+  "level_end": 84,
+  "peak_window_xp_per_min_normalized": 368,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 23,
+    "sell_unneeded_gear_lumbridge": 1,
+    "mine_copper_and_tin_varrock_se": 11,
+    "mine_iron_rocks_varrock_se": 15,
+    "drop_gathered_items": 25,
+    "eat_food": 1
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 0,
+    "sell_unneeded_gear_lumbridge": 0,
+    "mine_copper_and_tin_varrock_se": 95375,
+    "mine_iron_rocks_varrock_se": 266000,
+    "drop_gathered_items": 0,
+    "eat_food": 0
+  },
+  "deaths": 0
+}

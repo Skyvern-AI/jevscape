@@ -1,0 +1,35 @@
+{
+  "skill": "Magic",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 10511,
+  "xp_start": 0,
+  "xp_end": 42962,
+  "xp_gained": 42962,
+  "level_start": 1,
+  "level_end": 53,
+  "peak_window_xp_per_min_normalized": 121,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 3501,
+    "cast_wind_strike_on_chickens": 3475,
+    "cast_wind_strike_on_cows": 3514,
+    "eat_food": 2,
+    "sell_unneeded_gear_lumbridge": 1,
+    "buy_runes_aubury_varrock": 18
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 0,
+    "cast_wind_strike_on_chickens": 37338,
+    "cast_wind_strike_on_cows": 5624,
+    "eat_food": 0,
+    "sell_unneeded_gear_lumbridge": 0,
+    "buy_runes_aubury_varrock": 0
+  },
+  "deaths": 0
+}

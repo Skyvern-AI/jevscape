@@ -1,0 +1,29 @@
+{
+  "skill": "Defence",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 43,
+  "xp_start": 1860,
+  "xp_end": 317560,
+  "xp_gained": 315700,
+  "level_start": 15,
+  "level_end": 82,
+  "peak_window_xp_per_min_normalized": 154,
+  "jev_calls": 43,
+  "jev_input_tokens": 151626,
+  "jev_output_tokens": 5909,
+  "jev_cost_usd": 0.00637,
+  "jev_seconds": 9.3,
+  "action_counts": {
+    "set_combat_style_defence": 2,
+    "fight_giant_rats_lumbridge": 33,
+    "fight_goblins_lumbridge": 8
+  },
+  "action_xp": {
+    "set_combat_style_defence": 0,
+    "fight_giant_rats_lumbridge": 263900,
+    "fight_goblins_lumbridge": 51800
+  },
+  "deaths": 0
+}

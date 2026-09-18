@@ -1,0 +1,27 @@
+{
+  "skill": "Strength",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 45,
+  "xp_start": 980,
+  "xp_end": 367880,
+  "xp_gained": 366900,
+  "level_start": 10,
+  "level_end": 84,
+  "peak_window_xp_per_min_normalized": 164,
+  "jev_calls": 45,
+  "jev_input_tokens": 160758,
+  "jev_output_tokens": 6345,
+  "jev_cost_usd": 0.00675,
+  "jev_seconds": 10.7,
+  "action_counts": {
+    "set_combat_style_strength": 1,
+    "fight_giant_rats_lumbridge": 44
+  },
+  "action_xp": {
+    "set_combat_style_strength": 0,
+    "fight_giant_rats_lumbridge": 366900
+  },
+  "deaths": 0
+}

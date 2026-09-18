@@ -1,0 +1,5 @@
+#!/bin/bash
+set -euo pipefail
+# The Jev controller runs on bun, which the benchmark image ships. Nothing to install.
+command -v bun >/dev/null 2>&1 || { echo "bun not found in the sandbox" >&2; exit 1; }
+bun --version

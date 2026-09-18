@@ -1,0 +1,25 @@
+{
+  "skill": "Thieving",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 42,
+  "xp_start": 0,
+  "xp_end": 227600,
+  "xp_gained": 227600,
+  "level_start": 1,
+  "level_end": 77,
+  "peak_window_xp_per_min_normalized": 152,
+  "jev_calls": 42,
+  "jev_input_tokens": 148290,
+  "jev_output_tokens": 5145,
+  "jev_cost_usd": 0.00623,
+  "jev_seconds": 29.6,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 42
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 227600
+  },
+  "deaths": 0
+}

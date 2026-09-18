@@ -1,0 +1,29 @@
+{
+  "skill": "Ranged",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 90,
+  "xp_start": 0,
+  "xp_end": 0,
+  "xp_gained": 0,
+  "level_start": 1,
+  "level_end": 1,
+  "peak_window_xp_per_min_normalized": 0,
+  "jev_calls": 90,
+  "jev_input_tokens": 253001,
+  "jev_output_tokens": 7178,
+  "jev_cost_usd": 0.01063,
+  "jev_seconds": 17.6,
+  "action_counts": {
+    "equip_shortbow_and_arrows": 44,
+    "shoot_chickens_lumbridge": 26,
+    "shoot_cows_lumbridge": 20
+  },
+  "action_xp": {
+    "equip_shortbow_and_arrows": 0,
+    "shoot_chickens_lumbridge": 0,
+    "shoot_cows_lumbridge": 0
+  },
+  "deaths": 0
+}

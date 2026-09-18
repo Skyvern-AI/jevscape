@@ -1,0 +1,31 @@
+{
+  "skill": "Crafting",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 6,
+  "xp_start": 0,
+  "xp_end": 0,
+  "xp_gained": 0,
+  "level_start": 1,
+  "level_end": 1,
+  "peak_window_xp_per_min_normalized": 0,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 3,
+    "fight_goblins_lumbridge": 1,
+    "buy_needle_and_thread_al_kharid": 1,
+    "fight_giant_rats_lumbridge": 1
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 0,
+    "fight_goblins_lumbridge": 0,
+    "buy_needle_and_thread_al_kharid": 0,
+    "fight_giant_rats_lumbridge": 0
+  },
+  "deaths": 0
+}

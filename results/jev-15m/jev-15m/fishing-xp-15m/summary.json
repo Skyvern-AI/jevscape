@@ -1,0 +1,37 @@
+{
+  "skill": "Fishing",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 100,
+  "xp_start": 0,
+  "xp_end": 648000,
+  "xp_gained": 648000,
+  "level_start": 1,
+  "level_end": 92,
+  "peak_window_xp_per_min_normalized": 845,
+  "jev_calls": 100,
+  "jev_input_tokens": 282095,
+  "jev_output_tokens": 5772,
+  "jev_cost_usd": 0.01185,
+  "jev_seconds": 23.4,
+  "action_counts": {
+    "net_fish_draynor": 19,
+    "drop_gathered_items": 29,
+    "sell_unneeded_gear_lumbridge": 1,
+    "buy_fly_fishing_rod_and_feathers_port_sarim": 10,
+    "fly_fish_lumbridge_river": 31,
+    "pickpocket_men_lumbridge": 9,
+    "eat_food": 1
+  },
+  "action_xp": {
+    "net_fish_draynor": 99250,
+    "drop_gathered_items": 500,
+    "sell_unneeded_gear_lumbridge": 0,
+    "buy_fly_fishing_rod_and_feathers_port_sarim": 0,
+    "fly_fish_lumbridge_river": 546250,
+    "pickpocket_men_lumbridge": 0,
+    "eat_food": 0
+  },
+  "deaths": 0
+}

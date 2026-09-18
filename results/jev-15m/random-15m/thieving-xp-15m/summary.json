@@ -1,0 +1,37 @@
+{
+  "skill": "Thieving",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 19,
+  "xp_start": 0,
+  "xp_end": 48077,
+  "xp_gained": 48077,
+  "level_start": 1,
+  "level_end": 55,
+  "peak_window_xp_per_min_normalized": 196,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 5,
+    "pickpocket_warriors_al_kharid": 4,
+    "sell_unneeded_gear_lumbridge": 1,
+    "eat_food": 2,
+    "pickpocket_guards_falador": 2,
+    "pickpocket_farmers_varrock_south": 4,
+    "rest_to_recover_hitpoints": 1
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 23200,
+    "pickpocket_warriors_al_kharid": 2600,
+    "sell_unneeded_gear_lumbridge": 0,
+    "eat_food": 0,
+    "pickpocket_guards_falador": 2340,
+    "pickpocket_farmers_varrock_south": 19937,
+    "rest_to_recover_hitpoints": 0
+  },
+  "deaths": 0
+}

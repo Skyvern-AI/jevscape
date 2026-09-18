@@ -1,0 +1,39 @@
+{
+  "skill": "Prayer",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 1156,
+  "xp_start": 0,
+  "xp_end": 10800,
+  "xp_gained": 10800,
+  "level_start": 1,
+  "level_end": 34,
+  "peak_window_xp_per_min_normalized": 47,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 210,
+    "fight_cows_lumbridge": 178,
+    "fight_giant_rats_lumbridge": 186,
+    "eat_food": 2,
+    "sell_unneeded_gear_lumbridge": 1,
+    "fight_goblins_lumbridge": 199,
+    "fight_chickens_lumbridge": 182,
+    "bury_bones": 198
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 0,
+    "fight_cows_lumbridge": 0,
+    "fight_giant_rats_lumbridge": 0,
+    "eat_food": 0,
+    "sell_unneeded_gear_lumbridge": 0,
+    "fight_goblins_lumbridge": 0,
+    "fight_chickens_lumbridge": 0,
+    "bury_bones": 10800
+  },
+  "deaths": 0
+}

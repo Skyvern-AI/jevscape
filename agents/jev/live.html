@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jev plays RuneScape</title>
+<style>
+  :root {
+    --bg: #0d0f14; --panel: #151923; --panel-2: #1c2130; --line: #2a3142;
+    --text: #e6e9f0; --muted: #8b93a7; --gold: #e8b64a; --green: #57c66b; --red: #ef6461; --blue: #5aa9ff;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { background: var(--bg); color: var(--text); font: 13px/1.45 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; display: grid; grid-template-rows: 44px 1fr; height: 100vh; overflow: hidden; }
+  header { display: flex; align-items: center; gap: 14px; padding: 0 16px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  header h1 { font-size: 15px; margin: 0; font-weight: 650; letter-spacing: .2px; }
+  header h1 span { color: var(--gold); }
+  .pill { font-size: 11px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); background: var(--panel-2); white-space: nowrap; }
+  .pill.on { color: var(--green); border-color: rgba(87,198,107,.4); }
+  .pill.off { color: var(--red); border-color: rgba(239,100,97,.4); }
+  .stats { margin-left: auto; display: flex; gap: 18px; }
+  .stat { text-align: right; }
+  .stat b { display: block; font-size: 15px; color: var(--gold); font-variant-numeric: tabular-nums; }
+  .stat small { color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .6px; }
+  main { display: grid; grid-template-columns: 1fr 480px; min-height: 0; }
+  #stage { position: relative; background: #000; min-width: 0; }
+  #stage iframe { width: 100%; height: 100%; border: 0; display: block; }
+  #stage .hint { position: absolute; left: 12px; bottom: 10px; font-size: 11px; color: var(--muted); background: rgba(0,0,0,.6); padding: 3px 8px; border-radius: 6px; }
+  aside { border-left: 1px solid var(--line); background: var(--panel); overflow-y: auto; min-height: 0; display: flex; flex-direction: column; }
+  section { padding: 12px 14px; border-bottom: 1px solid var(--line); }
+  section h2 { margin: 0 0 8px; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .7px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+  section h2 .sub { text-transform: none; letter-spacing: 0; font-weight: 400; }
+  .now { display: flex; align-items: center; gap: 10px; }
+  .now .phase { font-weight: 650; }
+  .now .key { font-family: var(--mono); color: var(--gold); }
+  .bar { height: 6px; background: var(--panel-2); border-radius: 3px; overflow: hidden; margin-top: 8px; }
+  .bar i { display: block; height: 100%; background: var(--gold); width: 0; transition: width .3s linear; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+  .dot.think { background: var(--blue); animation: pulse 1s infinite; }
+  .dot.run { background: var(--gold); animation: pulse 1.2s infinite; }
+  .dot.ok { background: var(--green); } .dot.bad { background: var(--red); }
+  @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .35 } }
+  .pick { background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  .pick .key { font-family: var(--mono); font-size: 14px; color: var(--gold); font-weight: 600; }
+  .pick dl { margin: 8px 0 0; display: grid; grid-template-columns: 62px 1fr; gap: 3px 8px; }
+  .pick dt { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .5px; padding-top: 1px; }
+  .pick dd { margin: 0; }
+  .meta { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 8px; color: var(--muted); font-size: 11px; }
+  .meta b { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .dist { margin-top: 10px; display: grid; gap: 4px; }
+  .opt { display: grid; grid-template-columns: 1fr 44px; gap: 8px; align-items: center; font-size: 12px; }
+  .opt .lbl { font-family: var(--mono); font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--muted); }
+  .opt.chosen .lbl { color: var(--gold); font-weight: 600; }
+  .opt .track { height: 8px; background: var(--panel-2); border-radius: 4px; overflow: hidden; margin-top: 2px; }
+  .opt .track i { display: block; height: 100%; background: #3c4661; }
+  .opt.chosen .track i { background: var(--gold); }
+  .opt .pct { text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); font-size: 11px; }
+  .opt.chosen .pct { color: var(--gold); }
+  .kv { display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 12px; font-size: 12px; }
+  .kv div span { color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .chip { font-size: 11px; padding: 1px 7px; border-radius: 6px; background: var(--panel-2); border: 1px solid var(--line); color: var(--text); }
+  .msgs { margin: 6px 0 0; padding: 0; list-style: none; color: var(--muted); font-size: 11.5px; }
+  .msgs li { padding: 1px 0; }
+  .hist { margin: 0; padding: 0; list-style: none; }
+  .hist li { display: grid; grid-template-columns: 30px 1fr auto; gap: 8px; padding: 5px 0; border-bottom: 1px dashed var(--line); font-size: 12px; align-items: baseline; }
+  .hist li:last-child { border-bottom: 0; }
+  .hist .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .hist .k { font-family: var(--mono); font-size: 11.5px; }
+  .hist .o { color: var(--muted); font-size: 11px; display: block; margin-top: 1px; }
+  .hist .xp { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .hist .xp.pos { color: var(--green); } .hist .xp.zero { color: var(--muted); } .hist .xp.bad { color: var(--red); }
+  details summary { cursor: pointer; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .7px; font-weight: 600; }
+  pre.log { margin: 8px 0 0; font: 11px/1.4 var(--mono); color: var(--muted); white-space: pre-wrap; word-break: break-word; max-height: 240px; overflow: auto; }
+  .empty { color: var(--muted); font-style: italic; }
+  body[data-view="simple"] .developer-only, body[data-view="developer"] .simple-only, body[data-view="developer"] #simple-view { display: none; }
+  .view-toggle { display: flex; gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: 7px; margin-left: auto; flex-shrink: 0; position: sticky; right: 0; background: var(--panel); z-index: 1; }
+  .view-toggle button { border: 0; border-radius: 4px; padding: 3px 10px; background: transparent; color: var(--muted); font: inherit; cursor: pointer; }
+  .view-toggle button[aria-pressed="true"] { background: var(--line); color: var(--text); }
+  .view-toggle button:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+  #simple-view { height: 100%; min-height: 760px; display: grid; grid-template-rows: auto auto minmax(160px, 1.15fr) minmax(180px, 1fr) auto; font-size: 14px; line-height: 1.5; }
+  #simple-view section { padding: 18px 22px; }
+  #simple-view h2 { margin-bottom: 10px; font-size: 14px; text-transform: none; letter-spacing: 0; color: var(--text); }
+  #simple-view p { margin: 0; }
+  #simple-now { font-size: 16px; line-height: 1.55; overflow-wrap: anywhere; }
+  #simple-now.failed, .simple-history .failed { color: var(--red); }
+  .simple-progress { height: 4px; margin-top: 14px; border-radius: 2px; background: var(--line); overflow: hidden; }
+  .simple-progress i { display: block; width: 0; height: 100%; background: var(--text); transition: width .25s linear; }
+  #simple-view #simple-level { font-size: 16px; margin-bottom: 4px; }
+  #simple-next { color: var(--muted); }
+  #simple-next b { color: var(--text); font-weight: 600; }
+  .simple-metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0 0; }
+  .simple-metrics dt { color: var(--muted); }
+  .simple-metrics dd { margin: 3px 0 0; font-size: 16px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  #simple-gained, .simple-history .gained { color: var(--green); }
+  #simple-view .simple-list-section { display: flex; flex-direction: column; min-height: 0; }
+  #simple-view .section-heading { display: flex; justify-content: space-between; align-items: baseline; flex-shrink: 0; gap: 12px; margin-bottom: 8px; }
+  #simple-view .section-heading h2 { margin: 0; }
+  .simple-note { color: var(--muted); font-size: 14px; }
+  .simple-choices { margin: 0; padding: 0 0 0 26px; min-height: 0; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+  .simple-choices li { padding: 7px 10px; margin: 0 4px 5px 0; border: 1px solid transparent; border-radius: 6px; overflow-wrap: anywhere; }
+  .simple-choices li:last-child { margin-bottom: 0; }
+  .simple-choices li::marker { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .simple-choices li.chosen { color: var(--gold); border-color: rgba(232,182,74,.35); background: rgba(232,182,74,.06); }
+  .simple-choices li.chosen::marker { color: var(--gold); font-weight: 600; }
+  .simple-choices li.subhead { list-style: none; margin-top: 10px; padding: 0 10px 2px; color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+  .subhead { margin: 10px 0 4px; color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+  .simple-history { list-style: none; padding: 0; margin: 0; min-height: 0; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+  .simple-history li { padding: 10px 4px 10px 0; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+  .simple-history li:first-child { padding-top: 0; }
+  .simple-history li:last-child { border-bottom: 0; padding-bottom: 0; }
+  .simple-history .result { display: block; margin-top: 3px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .simple-history .result.gained { color: var(--green); }
+  .simple-history .result.failed { color: var(--red); }
+  .simple-totals { position: sticky; bottom: 0; margin-top: auto; padding: 15px 22px; background: var(--panel); border-top: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+  #simple-view .simple-totals p + p { margin-top: 5px; }
+  #simple-calls { color: var(--muted); }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; grid-template-rows: 55vh 1fr; } aside { border-left: 0; border-top: 1px solid var(--line); } }
+  body[data-view="developer"] header { overflow-x: auto; flex-shrink: 0; }
+  body[data-view="developer"] header > * { flex-shrink: 0; }
+  @media (max-width: 1100px) { header { gap: 8px; } header .stats { gap: 10px; } header #simple-task { display: none; } }
+  @media (max-width: 600px) { header { padding: 0 8px; } body[data-view="simple"] header #client { display: none; } header h1 { font-size: 14px; } .view-toggle button { padding: 3px 7px; } }
+  @media (prefers-reduced-motion: reduce) { .simple-progress i { transition: none; } }
+</style>
+</head>
+<body data-view="simple">
+<header>
+  <h1><span>Jev</span> plays RuneScape</h1>
+  <span id="task" class="pill developer-only">waiting for the controller</span>
+  <span id="simple-task" class="pill simple-only">Waiting for Jev</span>
+  <span id="client" class="pill off">game client: connecting</span>
+  <span id="policy" class="pill developer-only" hidden></span>
+  <div class="stats developer-only">
+    <div class="stat"><b id="clock">0:00</b><small>elapsed</small></div>
+    <div class="stat"><b id="level">-</b><small>level</small></div>
+    <div class="stat"><b id="xp">0</b><small>xp gained</small></div>
+    <div class="stat"><b id="peak">0</b><small>peak xp/min</small></div>
+    <div class="stat"><b id="cost">$0.000</b><small id="costlbl">jev cost</small></div>
+  </div>
+  <div class="view-toggle" role="group" aria-label="Sidebar view">
+    <button type="button" id="view-simple" aria-pressed="true" aria-controls="simple-view">Simple</button>
+    <button type="button" id="view-developer" aria-pressed="false" aria-controls="developer-view">Developer</button>
+  </div>
+</header>
+<main>
+  <div id="stage">
+    <iframe id="game" title="RuneScape client" allow="autoplay"></iframe>
+    <div class="hint" id="hint">the game client logs the bot in from the URL; the bot SDK panel is below the canvas</div>
+  </div>
+  <aside>
+    <div id="simple-view" class="simple-only">
+      <section>
+        <h2>Jev's current task</h2>
+        <p id="simple-now" role="status">Waiting for Jev to start…</p>
+        <div id="simple-progress" class="simple-progress" role="progressbar" aria-label="Current action progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" hidden><i id="simple-burst"></i></div>
+      </section>
+      <section>
+        <h2 id="simple-level">Skill level: —</h2>
+        <p id="simple-next">Waiting for experience details…</p>
+        <dl class="simple-metrics">
+          <div><dt>Experience gained so far</dt><dd id="simple-gained">0 XP</dd></div>
+          <div><dt>Best XP per minute so far</dt><dd id="simple-pace">0</dd></div>
+        </dl>
+      </section>
+      <section class="simple-list-section">
+        <div class="section-heading"><h2>Choices</h2><span id="simple-choice-note" class="simple-note"></span></div>
+        <p id="simple-choices-empty" class="simple-note">Waiting for the first choices…</p>
+        <ol id="simple-choices" class="simple-choices" aria-label="Choices offered to Jev" tabindex="0" hidden></ol>
+      </section>
+      <section class="simple-list-section">
+        <div class="section-heading"><h2>Recent actions</h2><span class="simple-note">Newest first</span></div>
+        <p id="simple-history-empty" class="simple-note">Jev hasn't taken an action yet.</p>
+        <ul id="simple-history" class="simple-history" aria-label="Last eight actions" tabindex="0" hidden></ul>
+      </section>
+      <footer class="simple-totals">
+        <p>Total cost: <b id="simple-cost">$0.0000</b> <span id="simple-calls">(0 questions to Jev)</span></p>
+        <p>Total time: <b id="simple-time">0:00 of 0:00</b></p>
+      </footer>
+    </div>
+    <div id="developer-view" class="developer-only">
+    <section>
+      <h2>Now</h2>
+      <div class="now"><span class="dot" id="dot"></span><span class="phase" id="phase">idle</span></div>
+      <div class="bar"><i id="burst"></i></div>
+    </section>
+    <section>
+      <h2>Jev's pick <span class="sub">· calibrated probabilities over the offered actions; Jev returns no text</span></h2>
+      <div id="pick" class="empty">no decision yet</div>
+    </section>
+    <section>
+      <h2>What Jev sees <span class="sub" id="seen-n"></span></h2>
+      <div id="sees" class="empty">no state yet</div>
+    </section>
+    <section>
+      <h2>Decisions <span class="sub" id="hist-n"></span></h2>
+      <ul class="hist" id="hist"></ul>
+    </section>
+    <section>
+      <details><summary>Controller log</summary><pre class="log" id="log"></pre></details>
+    </section>
+    </div>
+  </aside>
+</main>
+<script>
+(() => {
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const fmt = n => (n ?? 0).toLocaleString();
+  const num = (n, fallback = 0) => typeof n === 'number' && Number.isFinite(n) ? n : fallback;
+  const list = value => Array.isArray(value) ? value.filter(Boolean) : [];
+  const plain = value => typeof value === 'string' ? value.replace(/_/g, ' ').trim() : '';
+  const capitalize = value => value ? value.charAt(0).toUpperCase() + value.slice(1) : '';
+  // Keep the first clause of the catalog's `what` text: "chop yew trees for yew logs; a yew gives ..." -> "Chop yew trees for yew logs".
+  const actionLabel = desc => capitalize(plain(desc?.what).split(';')[0].trim()) || 'Action details are not available yet';
+  const timeLabel = seconds => { const s = Math.max(0, Math.floor(num(seconds))); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
+  function setView(view, remember = false) {
+    const selected = view === 'developer' ? 'developer' : 'simple';
+    document.body.dataset.view = selected;
+    $('view-simple').setAttribute('aria-pressed', String(selected === 'simple'));
+    $('view-developer').setAttribute('aria-pressed', String(selected === 'developer'));
+    if (remember) { try { localStorage.setItem('jev-live-view', selected); } catch { /* storage may be unavailable */ } }
+  }
+  // ?view=developer forces a view for screenshots; otherwise the remembered choice applies.
+  const forcedView = new URLSearchParams(location.search).get('view');
+  if (forcedView) setView(forcedView); else { try { setView(localStorage.getItem('jev-live-view')); } catch { setView('simple'); } }
+  $('view-simple').addEventListener('click', () => setView('simple', true));
+  $('view-developer').addEventListener('click', () => setView('developer', true));
+  // ?nogame=1 shows the panel without loading the game client (only one page may be the bot's client).
+  const NOGAME = new URLSearchParams(location.search).has('nogame');
+  if (NOGAME) $('hint').textContent = 'game client not loaded on this page (?nogame=1); it runs in the other tab';
+  const state = { logDir: null, run: null, deciding: null, decision: null, outcome: null, latestSkill: null, totals: null, history: new Map(), logs: [], summary: null, phase: 'idle', phaseAt: 0, tick: null, lastPoll: null, labels: {} };
+  const TICK = () => (state.tick && state.run?.mode === 'tick') ? state.tick : null;
+  const labelOf = key => capitalize(plain(state.labels[key] || key).split(';')[0].trim());
+
+  function reset() { Object.assign(state, { run: null, deciding: null, decision: null, outcome: null, latestSkill: null, totals: null, history: new Map(), logs: [], summary: null, phase: 'idle', phaseAt: 0, tick: null, lastPoll: null, labels: {} }); renderAll(); }
+
+  function onEvent(e) {
+    if (!e || typeof e !== 'object') return;
+    if (Array.isArray(e.candidates)) for (const c of e.candidates) if (c && c.key && c.what) state.labels[c.key] = c.what;
+    switch (e.type) {
+      case 'hello': { const newRun = state.logDir && state.logDir !== e.log_dir; state.logDir = e.log_dir; reset(); if (e.client && !NOGAME && (!$('game').src || newRun)) $('game').src = e.client; return; }
+      case 'reset': reset(); return;
+      case 'start': state.run = e; state.phase = 'starting'; state.phaseAt = Date.now(); break;
+      case 'deciding': state.deciding = e; state.phase = 'deciding'; state.phaseAt = Date.now(); break;
+      case 'decision': state.decision = e; state.latestSkill = e; state.phase = 'running'; state.phaseAt = Date.now(); state.history.set(e.n, { decision: e, outcome: null, candidates: state.deciding?.n === e.n ? list(state.deciding?.candidates) : [] }); break;
+      case 'outcome': state.outcome = e; state.latestSkill = e; state.totals = e; state.phase = 'done'; state.phaseAt = Date.now(); { const h = state.history.get(e.n) || { decision: null, outcome: null }; h.outcome = e; state.history.set(e.n, h); } break;
+      case 'summary': state.summary = e.summary; state.totals = e.summary ?? state.totals; state.phase = 'finished'; state.phaseAt = Date.now(); break;
+      case 'tick': state.tick = e; if (e.polled !== false) state.lastPoll = e; if (e.interventions) state.lastActs = e; state.latestSkill = e; state.totals = e; if (e.current) { state.phase = 'running'; } else if (state.phase !== 'done' || !state.outcome) { state.phase = 'deciding'; } break;
+      case 'log': state.logs.push(`[${(e.ts || '').slice(11, 19)}] ${e.text}`); if (state.logs.length > 400) state.logs.shift(); break;
+    }
+    renderAll();
+  }
+
+  function currentAction(d) {
+    const what = actionLabel(d?.description);
+    const where = plain(d?.description?.where);
+    // The catalog marks nearby actions as "right here" or "you are already there".
+    if (!where || /right here|already there/i.test(where)) return what;
+    const destination = where.replace(/\s*\(\d+,\s*\d+\)/g, '').replace(/;\s*\d+ tiles away from you\.?/i, '').trim();
+    return `${what} — at ${destination}`;
+  }
+
+  // The rs-sdk engine's own level curve (server/engine/src/engine/entity/Player.ts): it uses 2^(n/10),
+  // not the real game's 2^(n/7), so levels arrive much sooner. `skill_xp` is that engine's XP in whole points.
+  function xpAtLevel(level) {
+    let points = 0;
+    for (let n = 1; n < level; n++) points += Math.floor(n + 300 * 2 ** (n / 7)); // real RuneScape curve (patches/rs-sdk-real-level-curve.patch)
+    return Math.floor(points / 4);
+  }
+
+  function failureMessage(outcome) {
+    const message = plain(outcome?.message);
+    return message && !/^[\[{]/.test(message) ? message : 'the action could not finish';
+  }
+
+  function renderSimple() {
+    const run = state.run;
+    const d = state.decision;
+    const out = state.outcome?.outcome;
+    const totals = state.totals;
+    $('simple-task').textContent = run ? `${capitalize(plain(run.skill)) || 'Training'} · ${num(run.minutes)} min` : 'Waiting for Jev';
+    let task = 'Waiting for Jev to start…';
+    if (state.phase === 'starting') task = 'Getting ready to play…';
+    if (state.phase === 'deciding') task = 'Choosing what to do next…';
+    if (state.phase === 'running') task = `Doing: ${currentAction(d)}`;
+    const t = TICK();
+    if (t && state.phase !== 'finished') {
+      const base = t.poll_every || 1;
+      const wait = t.poll_in > base ? ` and asked to be checked again in ${t.poll_in} ticks` : '';
+      const act = { close_dialog: ' and closed the dialog', eat_food: ' and ate some food' }[t.intervention] || '';
+      const said = p => p.restarted ? 'Jev restarted it' : p.timed_out ? 'Jev did not answer in time, so it kept going' : p.kept ? `Jev said keep going${{ close_dialog: ' and closed the dialog', eat_food: ' and ate some food' }[p.intervention] || ''}` : p.choice ? `Jev switched to ${labelOf(p.choice)}` : 'Jev gave no usable answer';
+      const verdict = t.polled === false ? `${state.lastPoll ? said(state.lastPoll) : 'Jev is waiting'}${wait}; next check in ${(t.poll_wait || 0) + 1} tick${t.poll_wait ? 's' : ''}` : t.restarted ? `Jev restarted it${wait}` : t.timed_out ? 'Jev did not answer in time, so it kept going' : t.kept ? `Jev said keep going${act} (${num(t.jev_seconds).toFixed(2)} s)${wait}` : t.choice ? `Jev switched to ${labelOf(t.choice)}${wait}` : 'Jev gave no usable answer';
+      const statusText = { idle: `quiet for ${fmt(num(t.idle_for_s))} s${t.last_msg ? ` (last message: “${esc(t.last_msg)}”)` : ''}`, moving: 'the player is walking', animating: 'the player is busy', in_combat: 'the player is fighting', skilling: 'the player is skilling', under_attack: 'the player is being attacked', in_dialog: 'a dialog is open', dead: 'the player is dead' }[t.player_status] || '';
+      task = t.current ? `Doing: ${labelOf(t.current)} — ${fmt(num(t.running_for_s))} s so far${statusText ? ', ' + statusText : ''}. ${verdict}.` : `Choosing what to do next…${statusText ? ' ' + statusText.charAt(0).toUpperCase() + statusText.slice(1) + '.' : ''} ${verdict}.`;
+    }
+    if (state.phase === 'done' || state.phase === 'finished') {
+      const completed = state.history.get(state.outcome?.n)?.decision;
+      task = out?.ok === false ? `Did not work: ${failureMessage(out)}`
+        : out ? `Done: ${currentAction(completed)} — gained ${fmt(num(out.xpGained))} XP`
+        : 'Finished playing';
+    }
+    $('simple-now').textContent = task;
+    $('simple-now').className = !TICK() && (state.phase === 'done' || state.phase === 'finished') && out?.ok === false ? 'failed' : '';
+    const level = num(state.latestSkill?.skill_level, num(run?.level));
+    const xp = num(state.latestSkill?.skill_xp, num(run?.xp));
+    $('simple-level').textContent = `${capitalize(plain(run?.skill)) || 'Skill'} level: ${level > 0 ? fmt(level) : '—'}`;
+    // skill_xp is raw server XP. Only the pace has already been normalized.
+    $('simple-next').innerHTML = level > 0 && level <= 126
+      ? `Experience until level ${level + 1}: <b>${fmt(Math.max(0, xpAtLevel(level + 1) - xp))}</b>`
+      : 'Waiting for experience details…';
+    $('simple-gained').textContent = `${fmt(num(totals?.xp_gained_total, num(totals?.xp_gained)))} XP`;
+    $('simple-pace').textContent = fmt(num(totals?.peak, num(totals?.peak_window_xp_per_min_normalized)));
+    $('simple-cost').textContent = `$${num(totals?.jev_cost_usd).toFixed(4)}`;
+    const calls = num(totals?.jev_calls);
+    $('simple-calls').textContent = `(${fmt(calls)} ${calls === 1 ? 'question' : 'questions'} to Jev)`;
+    renderSimpleChoices();
+    renderSimpleHistory();
+  }
+
+  function renderSimpleChoices() {
+    const t = TICK();
+    if (t) {
+      const src = t.probabilities ? t : (state.lastPoll && state.lastPoll.probabilities ? state.lastPoll : t);
+      const probs = src.probabilities || {};
+      const choices = Object.keys(probs).map(key => ({ label: labelOf(key), chosen: key === src.choice, probability: num(probs[key], null) })).sort((a, b) => (b.probability ?? -1) - (a.probability ?? -1));
+      $('simple-choice-note').textContent = choices.length ? `Re-decided when Jev asks · ${t.timed_out ? 'last answer timed out' : 'most likely first'}` : (t.timed_out ? 'Jev timed out this tick' : 'Waiting for Jev…');
+      $('simple-choices-empty').hidden = choices.length > 0;
+      $('simple-choices').hidden = choices.length === 0;
+      const actsSrc = src.interventions ? src : (state.lastActs || src);
+      const acts = actsSrc.interventions || {};
+      const actLabel = { do_nothing: 'Do nothing', close_dialog: 'Close the dialog', eat_food: 'Eat some food', restart_current: 'Restart what it is doing' };
+      const actList = Object.keys(acts).map(key => ({ label: actLabel[key] || labelOf(key), chosen: key === actsSrc.intervention, probability: num(acts[key], null) })).sort((a, b) => (b.probability ?? -1) - (a.probability ?? -1));
+      $('simple-choices').innerHTML = choices.map(c => `<li${c.chosen ? ' class="chosen" aria-current="true"' : ''}>${esc(c.label)}${c.probability == null ? '' : ` (${Math.round(Math.max(0, Math.min(1, c.probability)) * 100)}%)`}</li>`).join('')
+        + (actList.length ? `<li class="subhead" aria-hidden="true">Right now, this tick</li>` + actList.map(c => `<li${c.chosen ? ' class="chosen" aria-current="true"' : ''}>${esc(c.label)}${c.probability == null ? '' : ` (${Math.round(Math.max(0, Math.min(1, c.probability)) * 100)}%)`}</li>`).join('') : '');
+      return;
+    }
+    const pending = state.phase === 'deciding';
+    const d = pending ? null : state.decision;
+    const offered = pending ? list(state.deciding?.candidates) : list(state.history.get(d?.n)?.candidates);
+    const candidates = offered.length ? offered : list(d?.candidates).map((key, index) => ({ key, what: key === d?.choice ? d?.description?.what : `Option ${index + 1}` }));
+    const policy = d?.policy ?? state.run?.policy;
+    const random = policy != null && policy !== 'jev';
+    const choices = candidates.map((candidate, index) => ({
+      label: capitalize(plain(candidate?.what)) || `Option ${index + 1}`,
+      chosen: !!d && candidate?.key != null && candidate.key === d.choice,
+      probability: !random && candidate?.key != null ? num(d?.probabilities?.[candidate.key], null) : null,
+    })).sort((a, b) => (b.probability ?? -1) - (a.probability ?? -1));
+    $('simple-choice-note').textContent = !choices.length ? '' : random ? (d ? 'Picked at random' : 'Picking at random…') : pending ? 'Choosing…' : 'Most likely first';
+    $('simple-choices-empty').hidden = choices.length > 0;
+    $('simple-choices').hidden = choices.length === 0;
+    $('simple-choices').innerHTML = choices.map(c => `<li${c.chosen ? ' class="chosen" aria-current="true"' : ''}>${esc(c.label)}${c.probability == null ? '' : ` (${Math.round(Math.max(0, Math.min(1, c.probability)) * 100)}%)`}</li>`).join('');
+  }
+
+  function renderSimpleHistory() {
+    const rows = [...state.history.values()].filter(h => h?.decision).slice(-8).reverse();
+    $('simple-history-empty').hidden = rows.length > 0;
+    $('simple-history').hidden = rows.length === 0;
+    $('simple-history').innerHTML = rows.map(h => {
+      const out = h.outcome?.outcome;
+      const failed = out?.ok === false;
+      const result = !out ? 'In progress…' : failed ? `Did not work: ${failureMessage(out)}` : `+${fmt(num(out.xpGained))} XP in ${fmt(num(out.seconds))} s`;
+      const style = failed ? 'failed' : num(out?.xpGained) > 0 ? 'gained' : '';
+      return `<li>${esc(actionLabel(h.decision?.description))}<span class="result ${style}">${esc(result)}</span></li>`;
+    }).join('');
+  }
+
+  function renderSimpleClock() {
+    const run = state.run;
+    const duration = Math.max(0, num(run?.minutes) * 60);
+    const elapsed = run ? Math.max(0, Math.min(duration, (Date.now() - num(run.started_at, Date.now())) / 1000)) : 0;
+    $('simple-time').textContent = `${timeLabel(elapsed)} of ${timeLabel(duration)}`;
+    const d = state.decision;
+    const running = state.phase === 'running' && !!d && !TICK();
+    $('simple-progress').hidden = !running;
+    // Replayed decisions retain their actual start time, rather than restarting the bar.
+    const started = num(Date.parse(d?.ts), run && d?.elapsed_s != null ? num(run.started_at, state.phaseAt) + num(d?.elapsed_s) * 1000 : state.phaseAt);
+    const progress = running ? Math.max(0, Math.min(100, (Date.now() - started) / Math.max(1, num(d?.burst_ms, 20000)) * 100)) : 0;
+    $('simple-burst').style.width = `${progress}%`;
+    $('simple-progress').setAttribute('aria-valuenow', String(Math.round(progress)));
+  }
+
+  function renderHeader() {
+    const run = state.run;
+    const out = state.outcome;
+    if (run) {
+      $('task').textContent = `${run.skill} · ${run.minutes} min · ${run.bot} · ${run.game_speed ?? 8}x speed · ${run.mode === 'tick' ? `Jev decides every ${(run.poll_every || 1) > 1 ? `${run.poll_every} ticks` : 'tick'} (${(run.tick_ms ?? 400) * (run.poll_every || 1)} ms)` : `${Math.round((run.burst_ms || 20000) / 1000)} s per decision`}`;
+      $('policy').hidden = false;
+      $('policy').textContent = run.policy === 'jev' ? `policy: jev (${run.model || 'jev-latest'})` : `policy: ${run.policy}`;
+    }
+    // The decision event is newer than the last outcome while an action runs; take the freshest of both.
+    const d = state.decision;
+    const t = TICK();
+    const lvl = Math.max(d?.skill_level ?? 0, out?.skill_level ?? 0, t?.skill_level ?? 0) || run?.level;
+    $('level').textContent = lvl ?? '-';
+    $('xp').textContent = fmt(Math.max(out?.xp_gained_total ?? 0, t?.xp_gained_total ?? 0, d && run ? d.skill_xp - run.xp : 0));
+    $('peak').textContent = fmt(state.summary?.peak_window_xp_per_min_normalized ?? t?.peak ?? out?.peak ?? 0);
+    const cost = state.summary?.jev_cost_usd ?? t?.jev_cost_usd ?? out?.jev_cost_usd ?? 0;
+    $('cost').textContent = `$${cost.toFixed(3)}`;
+    $('costlbl').textContent = `jev cost · ${state.summary?.jev_calls ?? t?.jev_calls ?? out?.jev_calls ?? 0} calls`;
+  }
+
+  function renderClock() {
+    const run = state.run;
+    let ms = 0;
+    if (run) ms = state.summary ? run.minutes * 60000 : Math.min(Date.now() - run.started_at, run.minutes * 60000);
+    const s = Math.floor(ms / 1000);
+    $('clock').textContent = `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+    const d = state.decision;
+    if (TICK()) {
+      $('burst').style.width = '0%';
+    } else if (state.phase === 'running' && d) {
+      const p = Math.min(1, (Date.now() - state.phaseAt) / (d.burst_ms || 20000));
+      $('burst').style.width = `${p * 100}%`;
+    } else if (state.phase === 'deciding') {
+      $('burst').style.width = '0%';
+    }
+    renderSimpleClock();
+  }
+
+  function renderNow() {
+    const dot = $('dot'); const ph = $('phase');
+    dot.className = 'dot';
+    const t = TICK();
+    if (t && state.phase !== 'finished') {
+      dot.classList.add(t.current ? 'run' : 'think');
+      const act = t.intervention && t.intervention !== 'do_nothing' ? `, this_tick <span class="key">${esc(t.intervention)}</span>` : '';
+      const verdict = t.polled === false ? `waiting ${t.poll_wait} of ${Math.max(t.poll_in || 1, t.poll_every || 1)} ticks` : t.timed_out ? 'timed out, kept going' : t.kept ? `keep going${act}${t.poll_in > 1 ? `, poll in ${t.poll_in}` : ''}` : t.choice ? `switch to <span class="key">${esc(t.choice)}</span>` : 'no usable answer';
+      const status = t.player_status ? ` · player <b>${esc(t.player_status)}</b>${t.player_status === 'idle' ? ` ${t.idle_for_s}s` : ''}` : '';
+      ph.innerHTML = `tick ${fmt(t.ticks)} · ${t.current ? `running <span class="key">${esc(t.current)}</span> for ${t.running_for_s}s (#${t.n})` : 'nothing running'}${status} · Jev: ${verdict}${t.jev_seconds != null ? ` (${t.jev_seconds}s)` : ''} · kept ${fmt(t.kept_total)} / switched ${fmt(t.switched_total)} / restarted ${fmt(t.restarts_total)} / timeouts ${fmt(t.timeouts_total)}`;
+      $('burst').style.width = '0%';
+      return;
+    }
+    switch (state.phase) {
+      case 'idle': ph.textContent = 'waiting for the controller'; break;
+      case 'starting': ph.textContent = 'controller connected, reading the world'; break;
+      case 'deciding': dot.classList.add('think'); ph.innerHTML = `Jev is choosing among <b>${state.deciding?.candidates?.length ?? '?'}</b> actions (decision #${state.deciding?.n})`; break;
+      case 'running': dot.classList.add('run'); ph.innerHTML = `running <span class="key">${esc(state.decision?.choice)}</span> · decision #${state.decision?.n}`; break;
+      case 'done': { const o = state.outcome?.outcome; dot.classList.add(o?.ok ? 'ok' : 'bad'); ph.innerHTML = `<span class="key">${esc(state.outcome?.choice)}</span> ${esc(o?.stop)} · +${fmt(o?.xpGained)} xp in ${o?.seconds}s${o?.message ? ' · ' + esc(o.message) : ''}`; $('burst').style.width = '100%'; break; }
+      case 'finished': dot.classList.add('ok'); ph.textContent = `finished: ${fmt(state.summary?.xp_gained)} XP in ${state.summary?.decisions} decisions, peak ${fmt(state.summary?.peak_window_xp_per_min_normalized)} XP/min`; $('burst').style.width = '100%'; break;
+    }
+  }
+
+  function renderPick() {
+    const d = state.decision;
+    if (!d) { $('pick').className = 'empty'; $('pick').textContent = 'no decision yet'; return; }
+    const desc = d.description || {};
+    const t = TICK();
+    const src = t && t.probabilities ? t : (t && state.lastPoll && state.lastPoll.probabilities ? state.lastPoll : d);
+    const chosenKey = src.choice ?? d.choice;
+    const probs = src.probabilities ? Object.entries(src.probabilities) : (d.candidates || []).map(k => [k, null]);
+    probs.sort((a, b) => (b[1] ?? -1) - (a[1] ?? -1));
+    const dist = probs.map(([k, p]) => `<div class="opt${k === chosenKey ? ' chosen' : ''}"><div><div class="lbl" title="${esc(k)}">${esc(k)}</div><div class="track"><i style="width:${((p ?? 0) * 100).toFixed(1)}%"></i></div></div><div class="pct">${p == null ? '' : (p * 100).toFixed(0) + '%'}</div></div>`).join('');
+    const eat = d.eat_first == null ? '' : `<span>eat first <b>${(d.eat_first * 100).toFixed(0)}%</b></span>`;
+    const actsSrc = src.interventions ? src : (state.lastActs || src);
+    const acts = actsSrc.interventions ? Object.entries(actsSrc.interventions).sort((a, b) => (b[1] ?? -1) - (a[1] ?? -1)) : [];
+    const actDist = acts.length ? `<div class="subhead">this_tick</div>` + acts.map(([k, p]) => `<div class="opt${k === actsSrc.intervention ? ' chosen' : ''}"><div><div class="lbl" title="${esc(k)}">${esc(k)}</div><div class="track"><i style="width:${((p ?? 0) * 100).toFixed(1)}%"></i></div></div><div class="pct">${p == null ? '' : (p * 100).toFixed(0) + '%'}</div></div>`).join('') : '';
+    $('pick').className = 'pick';
+    $('pick').innerHTML = `
+      <div class="key">#${d.n} ${esc(d.choice)}</div>
+      <dl><dt>what</dt><dd>${esc(desc.what)}</dd><dt>where</dt><dd>${esc(desc.where)}</dd><dt>requires</dt><dd>${esc(desc.requires)}</dd><dt>gives</dt><dd>${esc(desc.gives)}</dd><dt>notes</dt><dd>${esc(desc.notes)}</dd></dl>
+      <div class="meta">
+        ${d.policy === 'jev' ? `${t ? `<span>tick <b>${fmt(t.ticks)}</b></span>` : ''}<span>p(choice) <b>${(t ? t.probabilities?.[chosenKey] : d.probability) == null ? '-' : ((t ? t.probabilities[chosenKey] : d.probability) * 100).toFixed(0) + '%'}</b></span><span>confidence <b>${(t ? t.confidence : d.confidence) == null ? '-' : ((t ? t.confidence : d.confidence) * 100).toFixed(0) + '%'}</b></span>${eat}<span>latency <b>${(t ? t.jev_seconds : d.jev_seconds) ?? '-'}s</b></span><span>tokens <b>${fmt(d.input_tokens)}</b></span>` : `<span>policy <b>${esc(d.policy)}</b> (no model call)</span>`}
+      </div>
+      <div class="dist">${dist}${actDist}</div>`;
+  }
+
+  function renderSees() {
+    const s = state.deciding?.snapshot;
+    if (!s) { $('sees').className = 'empty'; $('sees').textContent = 'no state yet'; return; }
+    $('seen-n').textContent = `· state sent with decision #${state.deciding.n}`;
+    const npcs = list(s.nearby?.npcs).slice(0, 5).map(n => `${n?.name ?? ''}${n?.count > 1 ? ' ×' + n.count : ''} (${n?.nearest_distance ?? '?'})`);
+    const objs = list(s.nearby?.objects).slice(0, 5).map(n => `${n?.name ?? ''}${n?.count > 1 ? ' ×' + n.count : ''} (${n?.nearest_distance ?? '?'})`);
+    const inv = list(s.inventory?.items).map(i => `${i?.name ?? ''}${i?.count > 1 ? ' ×' + i.count : ''}`);
+    $('sees').className = '';
+    $('sees').innerHTML = `
+      <div class="kv">
+        <div><span>position</span> ${s.player?.position?.x}, ${s.player?.position?.z}</div>
+        <div><span>near</span> ${esc(s.player?.position?.nearest_known_place)} (${s.player?.position?.distance_to_it})</div>
+        <div><span>hitpoints</span> ${esc(s.player?.hitpoints)}${s.player?.in_combat ? ' · in combat' : ''}</div>
+        <div><span>${esc(s.target_skill?.name)}</span> lvl ${s.target_skill?.level} · ${fmt(s.target_skill?.xp)} xp</div>
+        <div><span>coins</span> ${fmt(s.inventory?.coins)}</div>
+        <div><span>free slots</span> ${s.inventory?.free_slots}</div>
+        <div><span>time left</span> ${s.task?.minutes_remaining} min</div>
+        <div><span>best window</span> ${fmt(s.progress?.best_15s_window_so_far_xp_per_min)} xp/min</div>
+      </div>
+      <div class="chips">${inv.length ? inv.map(i => `<span class="chip">${esc(i)}</span>`).join('') : '<span class="empty">empty inventory</span>'}</div>
+      ${npcs.length ? `<div class="chips">${npcs.map(i => `<span class="chip" style="border-color:#4a3a3a">${esc(i)}</span>`).join('')}</div>` : ''}
+      ${objs.length ? `<div class="chips">${objs.map(i => `<span class="chip" style="border-color:#3a4a3a">${esc(i)}</span>`).join('')}</div>` : ''}
+      <ul class="msgs">${list(s.recent_game_messages).slice(-4).map(m => `<li>“${esc(m)}”</li>`).join('')}</ul>`;
+  }
+
+  function renderHistory() {
+    const rows = [...state.history.values()].sort((a, b) => (b.decision?.n ?? b.outcome?.n) - (a.decision?.n ?? a.outcome?.n)).slice(0, 60);
+    $('hist-n').textContent = rows.length ? `· ${state.history.size} so far, newest first` : '';
+    $('hist').innerHTML = rows.map(({ decision: d, outcome: o }) => {
+      const n = d?.n ?? o?.n;
+      const key = d?.choice ?? o?.choice;
+      const out = o?.outcome;
+      const xpCls = !out ? 'zero' : out.xpGained > 0 ? 'pos' : out.ok ? 'zero' : 'bad';
+      const p = d?.probability == null ? '' : ` · p ${(d.probability * 100).toFixed(0)}%`;
+      return `<li><span class="n">#${n}</span><span><span class="k">${esc(key)}</span>${p}<span class="o">${out ? esc(out.stop) + (out.message ? ': ' + esc(out.message) : '') : 'running…'}</span></span><span class="xp ${xpCls}">${out ? `+${fmt(out.xpGained)} xp · ${out.seconds}s` : ''}</span></li>`;
+    }).join('') || '<li class="empty">no decisions yet</li>';
+  }
+
+  function renderLog() { const pre = $('log'); pre.textContent = state.logs.slice(-120).join('\n'); pre.scrollTop = pre.scrollHeight; }
+  function renderAll() { renderHeader(); renderNow(); renderPick(); renderSees(); renderHistory(); renderLog(); renderSimple(); renderClock(); }
+
+  const es = new EventSource('/events');
+  es.onmessage = ev => { try { onEvent(JSON.parse(ev.data)); } catch (e) { console.warn('bad event', e); } };
+  setInterval(renderClock, 250);
+  async function pollStatus() {
+    try {
+      const st = await (await fetch('/status')).json();
+      const el = $('client');
+      if (st.inGame) { el.className = 'pill on'; el.textContent = `game client: in game as ${st.username || state.run?.bot || ''}`.trim(); }
+      else if (st.connected) { el.className = 'pill'; el.textContent = 'game client: connected, logging in'; }
+      else { el.className = 'pill off'; el.textContent = 'game client: not connected'; }
+    } catch { /* ignore */ }
+  }
+  pollStatus(); setInterval(pollStatus, 3000);
+  renderAll();
+})();
+</script>
+</body>
+</html>

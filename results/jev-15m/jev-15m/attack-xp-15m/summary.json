@@ -1,0 +1,29 @@
+{
+  "skill": "Attack",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 51,
+  "xp_start": 980,
+  "xp_end": 259980,
+  "xp_gained": 259000,
+  "level_start": 10,
+  "level_end": 79,
+  "peak_window_xp_per_min_normalized": 132,
+  "jev_calls": 51,
+  "jev_input_tokens": 183982,
+  "jev_output_tokens": 7583,
+  "jev_cost_usd": 0.00773,
+  "jev_seconds": 11.2,
+  "action_counts": {
+    "fight_giant_rats_lumbridge": 38,
+    "rest_to_recover_hitpoints": 6,
+    "fight_goblins_lumbridge": 7
+  },
+  "action_xp": {
+    "fight_giant_rats_lumbridge": 211300,
+    "rest_to_recover_hitpoints": 500,
+    "fight_goblins_lumbridge": 46000
+  },
+  "deaths": 0
+}

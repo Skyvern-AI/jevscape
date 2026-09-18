@@ -1,0 +1,27 @@
+{
+  "skill": "Mining",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 228,
+  "xp_start": 0,
+  "xp_end": 512312,
+  "xp_gained": 512312,
+  "level_start": 1,
+  "level_end": 89,
+  "peak_window_xp_per_min_normalized": 192,
+  "jev_calls": 228,
+  "jev_input_tokens": 695819,
+  "jev_output_tokens": 16045,
+  "jev_cost_usd": 0.02922,
+  "jev_seconds": 50.4,
+  "action_counts": {
+    "mine_copper_and_tin_varrock_se": 117,
+    "drop_gathered_items": 111
+  },
+  "action_xp": {
+    "mine_copper_and_tin_varrock_se": 512312,
+    "drop_gathered_items": 0
+  },
+  "deaths": 0
+}

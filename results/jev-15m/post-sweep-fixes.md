@@ -1,0 +1,7 @@
+--- pending post-sweep fixes
+- buy_axe_bobs_lumbridge / buy_bronze_pickaxe_bobs_lumbridge: require freeSlots(s) > 0 in available (Firemaking wasted 14 decisions on "No inventory space").
+- death detection: the game message buffer can surface an old death message late; also compare inventory wipe (>= 10 items -> <= 3 items with hp back to max) for timely detection.
+- Thieving: Jev never left men at level 77; consider stating per-option success odds at the current level (observed: 8 XP men ~1.4 successes/s at level 50; farmers 14.5 XP ~1.4/s).
+- Mining: only copper/tin offered; add iron rocks (level 15, 35 XP) at the same mine.
+- goTo/walkTo: no hard time cap; walks that cannot path (closed Al Kharid gate from inside) blocked 360 s, 439 s, 130 s in Crafting (decisions 9-11). Cap each walk attempt (~25 s) and add an exitAlKharid step when the player is inside and the hub is outside.
+- pick_up_knife_lumbridge: each attempt took ~135 s (12 slow ground scans) and the knife was absent for the whole random Fletching run (score 0). v3 reads state.groundItems, scans once, and gives up after 15 s. The knife spawn's availability itself is still unexplained.

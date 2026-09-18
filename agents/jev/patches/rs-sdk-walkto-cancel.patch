@@ -1,0 +1,28 @@
+--- sdk/actions.ts
++++ sdk/actions.ts
+@@ -1027,7 +1027,8 @@
+     }
+ 
+     /** Walk to coordinates using pathfinding, auto-opening doors. Aborts if the player dies en route. */
+-    async walkTo(x: number, z: number, tolerance: number = 3): Promise<ActionResult> {
++    // rs-bench/agents/jev: optional cancellation signal so a controller can stop a walk between steps.
++    async walkTo(x: number, z: number, tolerance: number = 3, signal?: AbortSignal): Promise<ActionResult> {
+         if (!Number.isFinite(x) || !Number.isFinite(z)) {
+             // walkTo(undefined, undefined) used to be accepted and marched the
+             // bot across the map (players expose coordinates as .x/.z).
+@@ -1103,6 +1104,7 @@
+         };
+ 
+         for (let i = 0; i < MAX_ITERATIONS; i++) {
++            if (signal?.aborted) return { success: false, message: `Walk cancelled en route to (${x}, ${z})` };
+             const dead = diedEnRoute();
+             if (dead) return dead;
+ 
+@@ -1212,6 +1214,7 @@
+                     }
+                 }
+ 
++                if (signal?.aborted) return { success: false, message: `Walk cancelled en route to (${x}, ${z})` };
+                 const result = await this.helpers.walkStepToward(wp.x, wp.z, 2, pos);
+                 const deadMidStep = diedEnRoute();
+                 if (deadMidStep) return deadMidStep;

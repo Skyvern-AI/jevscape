@@ -1,0 +1,39 @@
+{
+  "skill": "Ranged",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 58,
+  "xp_start": 0,
+  "xp_end": 15000,
+  "xp_gained": 15000,
+  "level_start": 1,
+  "level_end": 39,
+  "peak_window_xp_per_min_normalized": 88,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 30,
+    "equip_shortbow_and_arrows": 4,
+    "pick_up_arrows_here": 6,
+    "eat_food": 2,
+    "shoot_cows_lumbridge": 3,
+    "sell_unneeded_gear_lumbridge": 1,
+    "shoot_chickens_lumbridge": 1,
+    "rest_to_recover_hitpoints": 11
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 0,
+    "equip_shortbow_and_arrows": 0,
+    "pick_up_arrows_here": 0,
+    "eat_food": 0,
+    "shoot_cows_lumbridge": 10700,
+    "sell_unneeded_gear_lumbridge": 0,
+    "shoot_chickens_lumbridge": 4300,
+    "rest_to_recover_hitpoints": 0
+  },
+  "deaths": 0
+}

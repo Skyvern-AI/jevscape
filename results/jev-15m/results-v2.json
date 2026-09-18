@@ -1,0 +1,1201 @@
+{
+ "minutes": 15,
+ "runs": {
+  "jev": {
+   "Attack": {
+    "peak": 130,
+    "level": 79,
+    "xp": 259000,
+    "decisions": 51,
+    "cost": 0.00773,
+    "tokens": 183982,
+    "actions": {
+     "fight_giant_rats_lumbridge": 38,
+     "rest_to_recover_hitpoints": 6,
+     "fight_goblins_lumbridge": 7
+    },
+    "actionXp": {
+     "fight_giant_rats_lumbridge": 211300,
+     "rest_to_recover_hitpoints": 500,
+     "fight_goblins_lumbridge": 46000
+    }
+   },
+   "Strength": {
+    "peak": 162,
+    "level": 84,
+    "xp": 366900,
+    "decisions": 45,
+    "cost": 0.00675,
+    "tokens": 160758,
+    "actions": {
+     "set_combat_style_strength": 1,
+     "fight_giant_rats_lumbridge": 44
+    },
+    "actionXp": {
+     "set_combat_style_strength": 0,
+     "fight_giant_rats_lumbridge": 366900
+    }
+   },
+   "Defence": {
+    "peak": 158,
+    "level": 82,
+    "xp": 315700,
+    "decisions": 43,
+    "cost": 0.00637,
+    "tokens": 151626,
+    "actions": {
+     "set_combat_style_defence": 2,
+     "fight_giant_rats_lumbridge": 33,
+     "fight_goblins_lumbridge": 8
+    },
+    "actionXp": {
+     "set_combat_style_defence": 0,
+     "fight_giant_rats_lumbridge": 263900,
+     "fight_goblins_lumbridge": 51800
+    }
+   },
+   "Hitpoints": {
+    "peak": 41,
+    "level": 63,
+    "xp": 82842,
+    "decisions": 49,
+    "cost": 0.00749,
+    "tokens": 178260,
+    "actions": {
+     "fight_giant_rats_lumbridge": 36,
+     "rest_to_recover_hitpoints": 7,
+     "fight_goblins_lumbridge": 6
+    },
+    "actionXp": {
+     "fight_giant_rats_lumbridge": 68964,
+     "rest_to_recover_hitpoints": 293,
+     "fight_goblins_lumbridge": 13195
+    }
+   },
+   "Ranged": {
+    "peak": 0,
+    "level": 1,
+    "xp": 0,
+    "decisions": 90,
+    "cost": 0.01063,
+    "tokens": 253001,
+    "actions": {
+     "equip_shortbow_and_arrows": 44,
+     "shoot_chickens_lumbridge": 26,
+     "shoot_cows_lumbridge": 20
+    },
+    "actionXp": {
+     "equip_shortbow_and_arrows": 0,
+     "shoot_chickens_lumbridge": 0,
+     "shoot_cows_lumbridge": 0
+    }
+   },
+   "Prayer": {
+    "peak": 38,
+    "level": 51,
+    "xp": 37462,
+    "decisions": 73,
+    "cost": 0.01096,
+    "tokens": 260842,
+    "actions": {
+     "fight_giant_rats_lumbridge": 36,
+     "bury_bones": 35,
+     "rest_to_recover_hitpoints": 2
+    },
+    "actionXp": {
+     "fight_giant_rats_lumbridge": 0,
+     "bury_bones": 37462,
+     "rest_to_recover_hitpoints": 0
+    }
+   },
+   "Magic": {
+    "peak": 52,
+    "level": 50,
+    "xp": 34725,
+    "decisions": 76,
+    "cost": 0.00854,
+    "tokens": 203325,
+    "actions": {
+     "cast_wind_strike_on_chickens": 25,
+     "cast_wind_strike_on_cows": 9,
+     "sell_unneeded_gear_lumbridge": 1,
+     "buy_runes_aubury_varrock": 20,
+     "pickpocket_men_lumbridge": 19,
+     "eat_food": 2
+    },
+    "actionXp": {
+     "cast_wind_strike_on_chickens": 28438,
+     "cast_wind_strike_on_cows": 6287,
+     "sell_unneeded_gear_lumbridge": 0,
+     "buy_runes_aubury_varrock": 0,
+     "pickpocket_men_lumbridge": 0,
+     "eat_food": 0
+    }
+   },
+   "Woodcutting": {
+    "peak": 574,
+    "level": 95,
+    "xp": 808000,
+    "decisions": 102,
+    "cost": 0.01464,
+    "tokens": 348454,
+    "actions": {
+     "chop_regular_trees_lumbridge": 1,
+     "drop_gathered_items": 44,
+     "chop_oak_trees_lumbridge": 1,
+     "chop_willow_trees_lumbridge": 56
+    },
+    "actionXp": {
+     "chop_regular_trees_lumbridge": 6250,
+     "drop_gathered_items": 0,
+     "chop_oak_trees_lumbridge": 10312,
+     "chop_willow_trees_lumbridge": 789750
+    }
+   },
+   "Fishing": {
+    "peak": 920,
+    "level": 92,
+    "xp": 648000,
+    "decisions": 100,
+    "cost": 0.01185,
+    "tokens": 282095,
+    "actions": {
+     "net_fish_draynor": 19,
+     "drop_gathered_items": 29,
+     "sell_unneeded_gear_lumbridge": 1,
+     "buy_fly_fishing_rod_and_feathers_port_sarim": 10,
+     "fly_fish_lumbridge_river": 31,
+     "pickpocket_men_lumbridge": 9,
+     "eat_food": 1
+    },
+    "actionXp": {
+     "net_fish_draynor": 99250,
+     "drop_gathered_items": 500,
+     "sell_unneeded_gear_lumbridge": 0,
+     "buy_fly_fishing_rod_and_feathers_port_sarim": 0,
+     "fly_fish_lumbridge_river": 546250,
+     "pickpocket_men_lumbridge": 0,
+     "eat_food": 0
+    }
+   },
+   "Mining": {
+    "peak": 193,
+    "level": 89,
+    "xp": 512312,
+    "decisions": 228,
+    "cost": 0.02922,
+    "tokens": 695819,
+    "actions": {
+     "mine_copper_and_tin_varrock_se": 117,
+     "drop_gathered_items": 111
+    },
+    "actionXp": {
+     "mine_copper_and_tin_varrock_se": 512312,
+     "drop_gathered_items": 0
+    }
+   },
+   "Cooking": {
+    "peak": 120,
+    "level": 37,
+    "xp": 13500,
+    "decisions": 100,
+    "cost": 0.01199,
+    "tokens": 285587,
+    "actions": {
+     "net_fish_draynor": 10,
+     "cook_raw_food_draynor_fireplace": 12,
+     "cook_raw_food_lumbridge_range": 11,
+     "drop_gathered_items": 26,
+     "sell_unneeded_gear_lumbridge": 1,
+     "eat_food": 1,
+     "chop_regular_trees_lumbridge": 27,
+     "light_fire_and_cook_here": 3,
+     "burn_logs_here": 1,
+     "pickpocket_men_lumbridge": 7,
+     "rest_to_recover_hitpoints": 1
+    },
+    "actionXp": {
+     "net_fish_draynor": 0,
+     "cook_raw_food_draynor_fireplace": 0,
+     "cook_raw_food_lumbridge_range": 0,
+     "drop_gathered_items": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "eat_food": 0,
+     "chop_regular_trees_lumbridge": 0,
+     "light_fire_and_cook_here": 13500,
+     "burn_logs_here": 0,
+     "pickpocket_men_lumbridge": 0,
+     "rest_to_recover_hitpoints": 0
+    }
+   },
+   "Fletching": {
+    "peak": 213,
+    "level": 79,
+    "xp": 252825,
+    "decisions": 109,
+    "cost": 0.01508,
+    "tokens": 358930,
+    "actions": {
+     "pick_up_knife_lumbridge": 1,
+     "chop_regular_trees_lumbridge": 3,
+     "fletch_arrow_shafts": 1,
+     "fletch_longbow": 2,
+     "drop_gathered_items": 1,
+     "sell_unneeded_gear_lumbridge": 25,
+     "chop_oak_trees_lumbridge": 28,
+     "fletch_oak_shortbow": 1,
+     "fletch_oak_longbow": 27,
+     "chop_willow_trees_lumbridge": 3,
+     "buy_axe_bobs_lumbridge": 5,
+     "pickpocket_men_lumbridge": 8,
+     "eat_food": 1,
+     "rest_to_recover_hitpoints": 3
+    },
+    "actionXp": {
+     "pick_up_knife_lumbridge": 0,
+     "chop_regular_trees_lumbridge": 0,
+     "fletch_arrow_shafts": 1687,
+     "fletch_longbow": 2250,
+     "drop_gathered_items": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "chop_oak_trees_lumbridge": 0,
+     "fletch_oak_shortbow": 7013,
+     "fletch_oak_longbow": 241875,
+     "chop_willow_trees_lumbridge": 0,
+     "buy_axe_bobs_lumbridge": 0,
+     "pickpocket_men_lumbridge": 0,
+     "eat_food": 0,
+     "rest_to_recover_hitpoints": 0
+    }
+   },
+   "Crafting": {
+    "peak": 48,
+    "level": 17,
+    "xp": 2415,
+    "decisions": 11,
+    "cost": 0.00151,
+    "tokens": 36033,
+    "actions": {
+     "fight_cows_lumbridge": 4,
+     "sell_unneeded_gear_lumbridge": 1,
+     "buy_needle_and_thread_al_kharid": 1,
+     "tan_cowhides_al_kharid": 1,
+     "craft_leather_gloves": 1,
+     "eat_food": 1,
+     "fight_giant_rats_lumbridge": 1,
+     "fight_goblins_lumbridge": 1
+    },
+    "actionXp": {
+     "fight_cows_lumbridge": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "buy_needle_and_thread_al_kharid": 0,
+     "tan_cowhides_al_kharid": 0,
+     "craft_leather_gloves": 2415,
+     "eat_food": 0,
+     "fight_giant_rats_lumbridge": 0,
+     "fight_goblins_lumbridge": 0
+    }
+   },
+   "Smithing": {
+    "peak": 37,
+    "level": 50,
+    "xp": 34595,
+    "decisions": 92,
+    "cost": 0.0123,
+    "tokens": 292910,
+    "actions": {
+     "sell_unneeded_gear_lumbridge": 5,
+     "buy_hammer_lumbridge": 1,
+     "mine_copper_and_tin_varrock_se": 28,
+     "smelt_bronze_bars_lumbridge_furnace": 22,
+     "smith_bronze_daggers_varrock_anvil": 34,
+     "drop_gathered_items": 1,
+     "eat_food": 1
+    },
+    "actionXp": {
+     "sell_unneeded_gear_lumbridge": 0,
+     "buy_hammer_lumbridge": 0,
+     "mine_copper_and_tin_varrock_se": 0,
+     "smelt_bronze_bars_lumbridge_furnace": 11470,
+     "smith_bronze_daggers_varrock_anvil": 23125,
+     "drop_gathered_items": 0,
+     "eat_food": 0
+    }
+   },
+   "Firemaking": {
+    "peak": 300,
+    "level": 64,
+    "xp": 88000,
+    "decisions": 96,
+    "cost": 0.01256,
+    "tokens": 299043,
+    "actions": {
+     "chop_regular_trees_lumbridge": 1,
+     "burn_logs_here": 20,
+     "chop_oak_trees_lumbridge": 4,
+     "chop_willow_trees_lumbridge": 15,
+     "drop_gathered_items": 1,
+     "sell_unneeded_gear_lumbridge": 1,
+     "pickpocket_men_lumbridge": 21,
+     "eat_food": 1,
+     "buy_axe_bobs_lumbridge": 14,
+     "rest_to_recover_hitpoints": 18
+    },
+    "actionXp": {
+     "chop_regular_trees_lumbridge": 0,
+     "burn_logs_here": 88000,
+     "chop_oak_trees_lumbridge": 0,
+     "chop_willow_trees_lumbridge": 0,
+     "drop_gathered_items": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "pickpocket_men_lumbridge": 0,
+     "eat_food": 0,
+     "buy_axe_bobs_lumbridge": 0,
+     "rest_to_recover_hitpoints": 0
+    }
+   },
+   "Thieving": {
+    "peak": 168,
+    "level": 77,
+    "xp": 227600,
+    "decisions": 42,
+    "cost": 0.00623,
+    "tokens": 148290,
+    "actions": {
+     "pickpocket_men_lumbridge": 42
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 227600
+    }
+   }
+  },
+  "random": {
+   "Attack": {
+    "peak": 210,
+    "level": 64,
+    "xp": 87000,
+    "decisions": 99,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 11,
+     "fight_cows_lumbridge": 12,
+     "fight_giant_rats_lumbridge": 19,
+     "eat_food": 2,
+     "fight_goblins_lumbridge": 12,
+     "set_combat_style_strength": 10,
+     "set_combat_style_defence": 9,
+     "sell_unneeded_gear_lumbridge": 1,
+     "fight_chickens_lumbridge": 14,
+     "set_combat_style_attack": 9
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "fight_cows_lumbridge": 17800,
+     "fight_giant_rats_lumbridge": 14700,
+     "eat_food": 0,
+     "fight_goblins_lumbridge": 6300,
+     "set_combat_style_strength": 0,
+     "set_combat_style_defence": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "fight_chickens_lumbridge": 48200,
+     "set_combat_style_attack": 0
+    }
+   },
+   "Strength": {
+    "peak": 164,
+    "level": 70,
+    "xp": 133700,
+    "decisions": 99,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 11,
+     "fight_cows_lumbridge": 12,
+     "fight_giant_rats_lumbridge": 21,
+     "eat_food": 2,
+     "fight_goblins_lumbridge": 11,
+     "set_combat_style_strength": 11,
+     "set_combat_style_defence": 8,
+     "sell_unneeded_gear_lumbridge": 1,
+     "fight_chickens_lumbridge": 11,
+     "set_combat_style_attack": 11
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "fight_cows_lumbridge": 39400,
+     "fight_giant_rats_lumbridge": 65100,
+     "eat_food": 0,
+     "fight_goblins_lumbridge": 11500,
+     "set_combat_style_strength": 0,
+     "set_combat_style_defence": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "fight_chickens_lumbridge": 17700,
+     "set_combat_style_attack": 0
+    }
+   },
+   "Defence": {
+    "peak": 192,
+    "level": 63,
+    "xp": 82700,
+    "decisions": 87,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 12,
+     "fight_cows_lumbridge": 10,
+     "fight_giant_rats_lumbridge": 19,
+     "eat_food": 2,
+     "fight_goblins_lumbridge": 10,
+     "set_combat_style_strength": 9,
+     "set_combat_style_defence": 6,
+     "sell_unneeded_gear_lumbridge": 1,
+     "fight_chickens_lumbridge": 9,
+     "set_combat_style_attack": 9
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "fight_cows_lumbridge": 35000,
+     "fight_giant_rats_lumbridge": 25700,
+     "eat_food": 0,
+     "fight_goblins_lumbridge": 0,
+     "set_combat_style_strength": 0,
+     "set_combat_style_defence": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "fight_chickens_lumbridge": 22000,
+     "set_combat_style_attack": 0
+    }
+   },
+   "Hitpoints": {
+    "peak": 74,
+    "level": 64,
+    "xp": 86187,
+    "decisions": 87,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 11,
+     "fight_cows_lumbridge": 12,
+     "fight_giant_rats_lumbridge": 18,
+     "eat_food": 2,
+     "fight_goblins_lumbridge": 8,
+     "set_combat_style_strength": 9,
+     "set_combat_style_defence": 6,
+     "sell_unneeded_gear_lumbridge": 1,
+     "fight_chickens_lumbridge": 13,
+     "set_combat_style_attack": 7
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "fight_cows_lumbridge": 21519,
+     "fight_giant_rats_lumbridge": 26685,
+     "eat_food": 0,
+     "fight_goblins_lumbridge": 12796,
+     "set_combat_style_strength": 0,
+     "set_combat_style_defence": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "fight_chickens_lumbridge": 25187,
+     "set_combat_style_attack": 0
+    }
+   },
+   "Ranged": {
+    "peak": 64,
+    "level": 29,
+    "xp": 6900,
+    "decisions": 62,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 29,
+     "sell_unneeded_gear_lumbridge": 1,
+     "equip_shortbow_and_arrows": 3,
+     "shoot_cows_lumbridge": 1,
+     "eat_food": 2,
+     "pick_up_arrows_here": 8,
+     "shoot_chickens_lumbridge": 3,
+     "rest_to_recover_hitpoints": 15
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "equip_shortbow_and_arrows": 0,
+     "shoot_cows_lumbridge": 3200,
+     "eat_food": 0,
+     "pick_up_arrows_here": 0,
+     "shoot_chickens_lumbridge": 3700,
+     "rest_to_recover_hitpoints": 0
+    }
+   },
+   "Prayer": {
+    "peak": 47,
+    "level": 34,
+    "xp": 10800,
+    "decisions": 1156,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 210,
+     "fight_cows_lumbridge": 178,
+     "fight_giant_rats_lumbridge": 186,
+     "eat_food": 2,
+     "sell_unneeded_gear_lumbridge": 1,
+     "fight_goblins_lumbridge": 199,
+     "fight_chickens_lumbridge": 182,
+     "bury_bones": 198
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "fight_cows_lumbridge": 0,
+     "fight_giant_rats_lumbridge": 0,
+     "eat_food": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "fight_goblins_lumbridge": 0,
+     "fight_chickens_lumbridge": 0,
+     "bury_bones": 10800
+    }
+   },
+   "Magic": {
+    "peak": 111,
+    "level": 53,
+    "xp": 42962,
+    "decisions": 10511,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 3501,
+     "cast_wind_strike_on_chickens": 3475,
+     "cast_wind_strike_on_cows": 3514,
+     "eat_food": 2,
+     "sell_unneeded_gear_lumbridge": 1,
+     "buy_runes_aubury_varrock": 18
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "cast_wind_strike_on_chickens": 37338,
+     "cast_wind_strike_on_cows": 5624,
+     "eat_food": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "buy_runes_aubury_varrock": 0
+    }
+   },
+   "Woodcutting": {
+    "peak": 806,
+    "level": 90,
+    "xp": 542062,
+    "decisions": 76,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 22,
+     "buy_axe_bobs_lumbridge": 2,
+     "chop_regular_trees_lumbridge": 8,
+     "sell_unneeded_gear_lumbridge": 1,
+     "eat_food": 2,
+     "chop_oak_trees_lumbridge": 5,
+     "drop_gathered_items": 20,
+     "chop_willow_trees_lumbridge": 10,
+     "chop_yew_trees_lumbridge_road": 4,
+     "rest_to_recover_hitpoints": 2
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "buy_axe_bobs_lumbridge": 0,
+     "chop_regular_trees_lumbridge": 68750,
+     "sell_unneeded_gear_lumbridge": 0,
+     "eat_food": 0,
+     "chop_oak_trees_lumbridge": 65625,
+     "drop_gathered_items": 0,
+     "chop_willow_trees_lumbridge": 285187,
+     "chop_yew_trees_lumbridge_road": 122500,
+     "rest_to_recover_hitpoints": 0
+    }
+   },
+   "Fishing": {
+    "peak": 725,
+    "level": 84,
+    "xp": 372250,
+    "decisions": 71,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 24,
+     "net_fish_draynor": 11,
+     "buy_fly_fishing_rod_and_feathers_port_sarim": 2,
+     "drop_gathered_items": 17,
+     "eat_food": 1,
+     "sell_unneeded_gear_lumbridge": 1,
+     "fly_fish_lumbridge_river": 15
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "net_fish_draynor": 53750,
+     "buy_fly_fishing_rod_and_feathers_port_sarim": 0,
+     "drop_gathered_items": 0,
+     "eat_food": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "fly_fish_lumbridge_river": 318500
+    }
+   },
+   "Mining": {
+    "peak": 192,
+    "level": 76,
+    "xp": 204312,
+    "decisions": 76,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 25,
+     "sell_unneeded_gear_lumbridge": 1,
+     "mine_copper_and_tin_varrock_se": 25,
+     "drop_gathered_items": 24,
+     "eat_food": 1
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "mine_copper_and_tin_varrock_se": 204312,
+     "drop_gathered_items": 0,
+     "eat_food": 0
+    }
+   },
+   "Cooking": {
+    "peak": 255,
+    "level": 51,
+    "xp": 37500,
+    "decisions": 8509,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 2126,
+     "chop_regular_trees_lumbridge": 2156,
+     "burn_logs_here": 2112,
+     "net_fish_draynor": 2083,
+     "drop_gathered_items": 9,
+     "cook_raw_food_lumbridge_range": 6,
+     "sell_unneeded_gear_lumbridge": 1,
+     "eat_food": 5,
+     "cook_raw_food_draynor_fireplace": 9,
+     "rest_to_recover_hitpoints": 1,
+     "light_fire_and_cook_here": 1
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "chop_regular_trees_lumbridge": 0,
+     "burn_logs_here": 0,
+     "net_fish_draynor": 0,
+     "drop_gathered_items": 0,
+     "cook_raw_food_lumbridge_range": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "eat_food": 0,
+     "cook_raw_food_draynor_fireplace": 30750,
+     "rest_to_recover_hitpoints": 0,
+     "light_fire_and_cook_here": 6750
+    }
+   },
+   "Fletching": {
+    "peak": 0,
+    "level": 1,
+    "xp": 0,
+    "decisions": 29,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 10,
+     "chop_regular_trees_lumbridge": 2,
+     "pick_up_knife_lumbridge": 5,
+     "drop_gathered_items": 1,
+     "eat_food": 1,
+     "chop_oak_trees_lumbridge": 1,
+     "sell_unneeded_gear_lumbridge": 1,
+     "buy_axe_bobs_lumbridge": 6,
+     "rest_to_recover_hitpoints": 2
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "chop_regular_trees_lumbridge": 0,
+     "pick_up_knife_lumbridge": 0,
+     "drop_gathered_items": 0,
+     "eat_food": 0,
+     "chop_oak_trees_lumbridge": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "buy_axe_bobs_lumbridge": 0,
+     "rest_to_recover_hitpoints": 0
+    }
+   },
+   "Crafting": {
+    "peak": 0,
+    "level": 1,
+    "xp": 0,
+    "decisions": 6,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 3,
+     "fight_goblins_lumbridge": 1,
+     "buy_needle_and_thread_al_kharid": 1,
+     "fight_giant_rats_lumbridge": 1
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "fight_goblins_lumbridge": 0,
+     "buy_needle_and_thread_al_kharid": 0,
+     "fight_giant_rats_lumbridge": 0
+    }
+   },
+   "Smithing": {
+    "peak": 37,
+    "level": 43,
+    "xp": 20252,
+    "decisions": 64,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 18,
+     "buy_hammer_lumbridge": 1,
+     "mine_copper_and_tin_varrock_se": 13,
+     "smelt_bronze_bars_lumbridge_furnace": 8,
+     "eat_food": 2,
+     "smith_bronze_daggers_varrock_anvil": 14,
+     "sell_unneeded_gear_lumbridge": 8
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "buy_hammer_lumbridge": 0,
+     "mine_copper_and_tin_varrock_se": 0,
+     "smelt_bronze_bars_lumbridge_furnace": 7440,
+     "eat_food": 0,
+     "smith_bronze_daggers_varrock_anvil": 12812,
+     "sell_unneeded_gear_lumbridge": 0
+    }
+   },
+   "Firemaking": {
+    "peak": 675,
+    "level": 65,
+    "xp": 100000,
+    "decisions": 4578,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 4528,
+     "buy_axe_bobs_lumbridge": 10,
+     "chop_regular_trees_lumbridge": 5,
+     "burn_logs_here": 15,
+     "drop_gathered_items": 1,
+     "eat_food": 1,
+     "sell_unneeded_gear_lumbridge": 1,
+     "rest_to_recover_hitpoints": 9,
+     "chop_oak_trees_lumbridge": 4,
+     "chop_willow_trees_lumbridge": 3,
+     "chop_yew_trees_lumbridge_road": 1
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 0,
+     "buy_axe_bobs_lumbridge": 0,
+     "chop_regular_trees_lumbridge": 0,
+     "burn_logs_here": 100000,
+     "drop_gathered_items": 0,
+     "eat_food": 0,
+     "sell_unneeded_gear_lumbridge": 0,
+     "rest_to_recover_hitpoints": 0,
+     "chop_oak_trees_lumbridge": 0,
+     "chop_willow_trees_lumbridge": 0,
+     "chop_yew_trees_lumbridge_road": 0
+    }
+   },
+   "Thieving": {
+    "peak": 210,
+    "level": 55,
+    "xp": 48077,
+    "decisions": 19,
+    "cost": 0,
+    "tokens": 0,
+    "actions": {
+     "pickpocket_men_lumbridge": 5,
+     "pickpocket_warriors_al_kharid": 4,
+     "sell_unneeded_gear_lumbridge": 1,
+     "eat_food": 2,
+     "pickpocket_guards_falador": 2,
+     "pickpocket_farmers_varrock_south": 4,
+     "rest_to_recover_hitpoints": 1
+    },
+    "actionXp": {
+     "pickpocket_men_lumbridge": 23200,
+     "pickpocket_warriors_al_kharid": 2600,
+     "sell_unneeded_gear_lumbridge": 0,
+     "eat_food": 0,
+     "pickpocket_guards_falador": 2340,
+     "pickpocket_farmers_varrock_south": 19937,
+     "rest_to_recover_hitpoints": 0
+    }
+   }
+  }
+ },
+ "leaderboard": {
+  "codex53": {
+   "Attack": 34,
+   "Strength": 58,
+   "Defence": 28,
+   "Hitpoints": 13,
+   "Ranged": 54,
+   "Prayer": 38,
+   "Magic": 60,
+   "Woodcutting": 574,
+   "Fishing": 335,
+   "Mining": 385,
+   "Cooking": 0,
+   "Fletching": 14,
+   "Crafting": 0,
+   "Smithing": 0,
+   "Firemaking": 160,
+   "Thieving": 56
+  },
+  "sonnet46": {
+   "Attack": 84,
+   "Strength": 44,
+   "Defence": 80,
+   "Hitpoints": 12,
+   "Ranged": 88,
+   "Prayer": 0,
+   "Magic": 5,
+   "Woodcutting": 574,
+   "Fishing": 300,
+   "Mining": 315,
+   "Cooking": 0,
+   "Fletching": 75,
+   "Crafting": 0,
+   "Smithing": 37,
+   "Firemaking": 160,
+   "Thieving": 108
+  },
+  "opus": {
+   "Attack": 94,
+   "Strength": 74,
+   "Defence": 78,
+   "Hitpoints": 27,
+   "Ranged": 94,
+   "Prayer": 0,
+   "Magic": 76,
+   "Woodcutting": 300,
+   "Fishing": 300,
+   "Mining": 350,
+   "Cooking": 0,
+   "Fletching": 0,
+   "Crafting": 0,
+   "Smithing": 56,
+   "Firemaking": 180,
+   "Thieving": 257
+  },
+  "glm": {
+   "Attack": 52,
+   "Strength": 0,
+   "Defence": 28,
+   "Hitpoints": 20,
+   "Ranged": 24,
+   "Prayer": 5,
+   "Magic": 10,
+   "Woodcutting": 138,
+   "Fishing": null,
+   "Mining": 184,
+   "Cooking": 0,
+   "Fletching": 45,
+   "Crafting": 0,
+   "Smithing": 0,
+   "Firemaking": 140,
+   "Thieving": 288
+  },
+  "kimi": {
+   "Attack": 0,
+   "Strength": 68,
+   "Defence": 0,
+   "Hitpoints": 25,
+   "Ranged": 0,
+   "Prayer": 0,
+   "Magic": 3,
+   "Woodcutting": 0,
+   "Fishing": 0,
+   "Mining": 0,
+   "Cooking": 0,
+   "Fletching": 0,
+   "Crafting": 0,
+   "Smithing": 0,
+   "Firemaking": 140,
+   "Thieving": 96
+  },
+  "geminiflash": {
+   "Attack": 166,
+   "Strength": 82,
+   "Defence": 76,
+   "Hitpoints": 58,
+   "Ranged": 76,
+   "Prayer": 52,
+   "Magic": 53,
+   "Woodcutting": 13,
+   "Fishing": 465,
+   "Mining": 333,
+   "Cooking": 30,
+   "Fletching": 0,
+   "Crafting": 0,
+   "Smithing": 37,
+   "Firemaking": 20,
+   "Thieving": 24
+  },
+  "sonnet45": {
+   "Attack": null,
+   "Strength": 40,
+   "Defence": 50,
+   "Hitpoints": 29,
+   "Ranged": 14,
+   "Prayer": 0,
+   "Magic": 10,
+   "Woodcutting": 187,
+   "Fishing": 90,
+   "Mining": 157,
+   "Cooking": 0,
+   "Fletching": 0,
+   "Crafting": 0,
+   "Smithing": null,
+   "Firemaking": 280,
+   "Thieving": 184
+  },
+  "gpt54mini": {
+   "Attack": null,
+   "Strength": null,
+   "Defence": null,
+   "Hitpoints": null,
+   "Ranged": null,
+   "Prayer": null,
+   "Magic": null,
+   "Woodcutting": 113,
+   "Fishing": null,
+   "Mining": null,
+   "Cooking": null,
+   "Fletching": null,
+   "Crafting": null,
+   "Smithing": null,
+   "Firemaking": null,
+   "Thieving": null
+  },
+  "haiku": {
+   "Attack": 64,
+   "Strength": 146,
+   "Defence": 0,
+   "Hitpoints": 12,
+   "Ranged": 18,
+   "Prayer": 0,
+   "Magic": 31,
+   "Woodcutting": 200,
+   "Fishing": 0,
+   "Mining": 0,
+   "Cooking": 0,
+   "Fletching": 0,
+   "Crafting": 0,
+   "Smithing": 0,
+   "Firemaking": 40,
+   "Thieving": 88
+  },
+  "gpt55": {
+   "Attack": null,
+   "Strength": null,
+   "Defence": null,
+   "Hitpoints": null,
+   "Ranged": null,
+   "Prayer": null,
+   "Magic": null,
+   "Woodcutting": 574,
+   "Fishing": null,
+   "Mining": null,
+   "Cooking": null,
+   "Fletching": null,
+   "Crafting": null,
+   "Smithing": null,
+   "Firemaking": null,
+   "Thieving": null
+  },
+  "gemini": {
+   "Attack": 66,
+   "Strength": 44,
+   "Defence": 30,
+   "Hitpoints": 30,
+   "Ranged": 168,
+   "Prayer": 16,
+   "Magic": null,
+   "Woodcutting": 472,
+   "Fishing": 5,
+   "Mining": 315,
+   "Cooking": 0,
+   "Fletching": 225,
+   "Crafting": 0,
+   "Smithing": 75,
+   "Firemaking": null,
+   "Thieving": 286
+  },
+  "gemini31": {
+   "Attack": 24,
+   "Strength": 30,
+   "Defence": 62,
+   "Hitpoints": 8,
+   "Ranged": 32,
+   "Prayer": 0,
+   "Magic": 3,
+   "Woodcutting": 262,
+   "Fishing": 110,
+   "Mining": 227,
+   "Cooking": 0,
+   "Fletching": 44,
+   "Crafting": 0,
+   "Smithing": 97,
+   "Firemaking": 230,
+   "Thieving": 16
+  },
+  "opus48-max": {
+   "Attack": 80,
+   "Strength": 112,
+   "Defence": 98,
+   "Hitpoints": 40,
+   "Ranged": 14,
+   "Prayer": 9,
+   "Magic": 14,
+   "Woodcutting": 304,
+   "Fishing": 345,
+   "Mining": 315,
+   "Cooking": 0,
+   "Fletching": 4,
+   "Crafting": 0,
+   "Smithing": 0,
+   "Firemaking": 100,
+   "Thieving": 260
+  },
+  "qwen35": {
+   "Attack": 38,
+   "Strength": 0,
+   "Defence": 0,
+   "Hitpoints": 3,
+   "Ranged": 0,
+   "Prayer": 0,
+   "Magic": 0,
+   "Woodcutting": 187,
+   "Fishing": 0,
+   "Mining": 0,
+   "Cooking": 0,
+   "Fletching": 0,
+   "Crafting": 0,
+   "Smithing": null,
+   "Firemaking": 20,
+   "Thieving": 0
+  },
+  "opus45": {
+   "Attack": 52,
+   "Strength": 40,
+   "Defence": null,
+   "Hitpoints": 22,
+   "Ranged": 36,
+   "Prayer": 7,
+   "Magic": 3,
+   "Woodcutting": 472,
+   "Fishing": 255,
+   "Mining": 315,
+   "Cooking": 45,
+   "Fletching": 0,
+   "Crafting": 0,
+   "Smithing": 22,
+   "Firemaking": 240,
+   "Thieving": null
+  },
+  "gpt54": {
+   "Attack": 38,
+   "Strength": 46,
+   "Defence": 14,
+   "Hitpoints": 16,
+   "Ranged": 10,
+   "Prayer": 0,
+   "Magic": 0,
+   "Woodcutting": 244,
+   "Fishing": 150,
+   "Mining": 298,
+   "Cooking": 0,
+   "Fletching": 115,
+   "Crafting": 0,
+   "Smithing": 0,
+   "Firemaking": 60,
+   "Thieving": 140
+  },
+  "opus48": {
+   "Attack": 80,
+   "Strength": 136,
+   "Defence": 90,
+   "Hitpoints": 8,
+   "Ranged": 14,
+   "Prayer": 36,
+   "Magic": 32,
+   "Woodcutting": 238,
+   "Fishing": 50,
+   "Mining": 105,
+   "Cooking": 0,
+   "Fletching": 0,
+   "Crafting": 0,
+   "Smithing": 0,
+   "Firemaking": 220,
+   "Thieving": 348
+  },
+  "gpt54nano": {
+   "Attack": null,
+   "Strength": null,
+   "Defence": null,
+   "Hitpoints": null,
+   "Ranged": null,
+   "Prayer": null,
+   "Magic": null,
+   "Woodcutting": 188,
+   "Fishing": null,
+   "Mining": null,
+   "Cooking": null,
+   "Fletching": null,
+   "Crafting": null,
+   "Smithing": null,
+   "Firemaking": null,
+   "Thieving": null
+  }
+ },
+ "leaderboardRanking": [
+  {
+   "model": "opus",
+   "mean": 117.875
+  },
+  {
+   "model": "sonnet46",
+   "mean": 117.625
+  },
+  {
+   "model": "codex53",
+   "mean": 113.0625
+  },
+  {
+   "model": "opus48-max",
+   "mean": 105.9375
+  },
+  {
+   "model": "geminiflash",
+   "mean": 92.8125
+  },
+  {
+   "model": "opus48",
+   "mean": 84.8125
+  },
+  {
+   "model": "gemini31",
+   "mean": 71.5625
+  },
+  {
+   "model": "gpt54",
+   "mean": 70.6875
+  },
+  {
+   "model": "haiku",
+   "mean": 37.4375
+  },
+  {
+   "model": "kimi",
+   "mean": 20.75
+  }
+ ]
+}

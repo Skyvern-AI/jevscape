@@ -1,0 +1,41 @@
+{
+  "skill": "Fletching",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 29,
+  "xp_start": 0,
+  "xp_end": 0,
+  "xp_gained": 0,
+  "level_start": 1,
+  "level_end": 1,
+  "peak_window_xp_per_min_normalized": 0,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 10,
+    "chop_regular_trees_lumbridge": 2,
+    "pick_up_knife_lumbridge": 5,
+    "drop_gathered_items": 1,
+    "eat_food": 1,
+    "chop_oak_trees_lumbridge": 1,
+    "sell_unneeded_gear_lumbridge": 1,
+    "buy_axe_bobs_lumbridge": 6,
+    "rest_to_recover_hitpoints": 2
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 0,
+    "chop_regular_trees_lumbridge": 0,
+    "pick_up_knife_lumbridge": 0,
+    "drop_gathered_items": 0,
+    "eat_food": 0,
+    "chop_oak_trees_lumbridge": 0,
+    "sell_unneeded_gear_lumbridge": 0,
+    "buy_axe_bobs_lumbridge": 0,
+    "rest_to_recover_hitpoints": 0
+  },
+  "deaths": 0
+}

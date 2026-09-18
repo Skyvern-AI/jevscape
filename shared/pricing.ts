@@ -219,6 +219,9 @@ export const MODEL_PRICING: Record<string, ModelPricing> = {
   // agents/laguna_adapter.py (cost declared in opencode.json → OpenCode reports
   // real cost_usd; postprocess-costs needs --force to override it).
   laguna:       { input: 0.1e-6,    cachedInput: 0.01e-6,  cacheWrite: 0.1e-6,    output: 0.2e-6 },
+  // TypeSafe Jev (System One): $0.042/M input tokens, output tokens are free, no cache tiers.
+  // Runs through agents/jev_adapter.py (typed choice/noul questions, not a coding agent).
+  jev:          { input: 0.042e-6, cachedInput: 0.042e-6, cacheWrite: 0.042e-6, output: 0 },
 };
 
 /** By Harbor model ID (provider/name). Aliased to MODEL_PRICING entries. */
@@ -294,6 +297,8 @@ export const HARBOR_MODEL_PRICING: Record<string, string> = {
   'meta/muse-spark-1.1':               'muse',
   'openrouter/thinkingmachines/inkling': 'inkling',
   'openrouter/poolside/laguna-s-2.1':  'laguna',
+  'typesafe/jev-latest':               'jev',
+  'typesafe/jev-1.13.0':               'jev',
 };
 
 /** Look up pricing by either internal label or Harbor model ID. */

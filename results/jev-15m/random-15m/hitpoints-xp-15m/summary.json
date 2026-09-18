@@ -1,0 +1,43 @@
+{
+  "skill": "Hitpoints",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 87,
+  "xp_start": 3105,
+  "xp_end": 89292,
+  "xp_gained": 86187,
+  "level_start": 20,
+  "level_end": 64,
+  "peak_window_xp_per_min_normalized": 69,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 11,
+    "fight_cows_lumbridge": 12,
+    "fight_giant_rats_lumbridge": 18,
+    "eat_food": 2,
+    "fight_goblins_lumbridge": 8,
+    "set_combat_style_strength": 9,
+    "set_combat_style_defence": 6,
+    "sell_unneeded_gear_lumbridge": 1,
+    "fight_chickens_lumbridge": 13,
+    "set_combat_style_attack": 7
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 0,
+    "fight_cows_lumbridge": 21519,
+    "fight_giant_rats_lumbridge": 26685,
+    "eat_food": 0,
+    "fight_goblins_lumbridge": 12796,
+    "set_combat_style_strength": 0,
+    "set_combat_style_defence": 0,
+    "sell_unneeded_gear_lumbridge": 0,
+    "fight_chickens_lumbridge": 25187,
+    "set_combat_style_attack": 0
+  },
+  "deaths": 0
+}

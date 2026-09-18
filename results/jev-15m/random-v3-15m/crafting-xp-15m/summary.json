@@ -1,0 +1,43 @@
+{
+  "skill": "Crafting",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 31,
+  "xp_start": 0,
+  "xp_end": 5520,
+  "xp_gained": 5520,
+  "level_start": 1,
+  "level_end": 26,
+  "peak_window_xp_per_min_normalized": 41,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 5,
+    "fight_goblins_lumbridge": 5,
+    "buy_needle_and_thread_al_kharid": 1,
+    "fight_giant_rats_lumbridge": 2,
+    "fight_chickens_lumbridge": 4,
+    "eat_food": 2,
+    "fight_cows_lumbridge": 5,
+    "tan_cowhides_al_kharid": 3,
+    "sell_unneeded_gear_lumbridge": 1,
+    "craft_leather_gloves": 3
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 0,
+    "fight_goblins_lumbridge": 0,
+    "buy_needle_and_thread_al_kharid": 0,
+    "fight_giant_rats_lumbridge": 0,
+    "fight_chickens_lumbridge": 0,
+    "eat_food": 0,
+    "fight_cows_lumbridge": 0,
+    "tan_cowhides_al_kharid": 0,
+    "sell_unneeded_gear_lumbridge": 0,
+    "craft_leather_gloves": 5520
+  },
+  "deaths": 0
+}

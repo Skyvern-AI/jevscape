@@ -1,0 +1,31 @@
+{
+  "skill": "Woodcutting",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 102,
+  "xp_start": 0,
+  "xp_end": 808000,
+  "xp_gained": 808000,
+  "level_start": 1,
+  "level_end": 95,
+  "peak_window_xp_per_min_normalized": 574,
+  "jev_calls": 102,
+  "jev_input_tokens": 348454,
+  "jev_output_tokens": 10084,
+  "jev_cost_usd": 0.01464,
+  "jev_seconds": 24.6,
+  "action_counts": {
+    "chop_regular_trees_lumbridge": 1,
+    "drop_gathered_items": 44,
+    "chop_oak_trees_lumbridge": 1,
+    "chop_willow_trees_lumbridge": 56
+  },
+  "action_xp": {
+    "chop_regular_trees_lumbridge": 6250,
+    "drop_gathered_items": 0,
+    "chop_oak_trees_lumbridge": 10312,
+    "chop_willow_trees_lumbridge": 789750
+  },
+  "deaths": 0
+}

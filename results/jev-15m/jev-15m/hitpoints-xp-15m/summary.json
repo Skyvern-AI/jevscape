@@ -1,0 +1,29 @@
+{
+  "skill": "Hitpoints",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 49,
+  "xp_start": 3105,
+  "xp_end": 85947,
+  "xp_gained": 82842,
+  "level_start": 20,
+  "level_end": 63,
+  "peak_window_xp_per_min_normalized": 43,
+  "jev_calls": 49,
+  "jev_input_tokens": 178260,
+  "jev_output_tokens": 7362,
+  "jev_cost_usd": 0.00749,
+  "jev_seconds": 33.2,
+  "action_counts": {
+    "fight_giant_rats_lumbridge": 36,
+    "rest_to_recover_hitpoints": 7,
+    "fight_goblins_lumbridge": 6
+  },
+  "action_xp": {
+    "fight_giant_rats_lumbridge": 68964,
+    "rest_to_recover_hitpoints": 293,
+    "fight_goblins_lumbridge": 13195
+  },
+  "deaths": 0
+}

@@ -1,0 +1,29 @@
+{
+  "skill": "Prayer",
+  "minutes": 15,
+  "policy": "jev",
+  "model": "jev-1.13.0",
+  "decisions": 73,
+  "xp_start": 0,
+  "xp_end": 37462,
+  "xp_gained": 37462,
+  "level_start": 1,
+  "level_end": 51,
+  "peak_window_xp_per_min_normalized": 29,
+  "jev_calls": 73,
+  "jev_input_tokens": 260842,
+  "jev_output_tokens": 9484,
+  "jev_cost_usd": 0.01096,
+  "jev_seconds": 16.7,
+  "action_counts": {
+    "fight_giant_rats_lumbridge": 36,
+    "bury_bones": 35,
+    "rest_to_recover_hitpoints": 2
+  },
+  "action_xp": {
+    "fight_giant_rats_lumbridge": 0,
+    "bury_bones": 37462,
+    "rest_to_recover_hitpoints": 0
+  },
+  "deaths": 0
+}

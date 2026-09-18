@@ -1,0 +1,37 @@
+{
+  "skill": "Smithing",
+  "minutes": 15,
+  "policy": "random",
+  "model": null,
+  "decisions": 64,
+  "xp_start": 0,
+  "xp_end": 20252,
+  "xp_gained": 20252,
+  "level_start": 1,
+  "level_end": 43,
+  "peak_window_xp_per_min_normalized": 37,
+  "jev_calls": 0,
+  "jev_input_tokens": 0,
+  "jev_output_tokens": 0,
+  "jev_cost_usd": 0,
+  "jev_seconds": 0,
+  "action_counts": {
+    "pickpocket_men_lumbridge": 18,
+    "buy_hammer_lumbridge": 1,
+    "mine_copper_and_tin_varrock_se": 13,
+    "smelt_bronze_bars_lumbridge_furnace": 8,
+    "eat_food": 2,
+    "smith_bronze_daggers_varrock_anvil": 14,
+    "sell_unneeded_gear_lumbridge": 8
+  },
+  "action_xp": {
+    "pickpocket_men_lumbridge": 0,
+    "buy_hammer_lumbridge": 0,
+    "mine_copper_and_tin_varrock_se": 0,
+    "smelt_bronze_bars_lumbridge_furnace": 7440,
+    "eat_food": 0,
+    "smith_bronze_daggers_varrock_anvil": 12812,
+    "sell_unneeded_gear_lumbridge": 0
+  },
+  "deaths": 0
+}
