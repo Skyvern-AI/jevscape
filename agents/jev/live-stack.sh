@@ -33,7 +33,7 @@ while [[ $# -gt 0 ]]; do
     *) echo "unknown option: $1" >&2; exit 2;;
   esac
 done
-WEB_PORT=8888; GW_PORT=7780; DASH_PORT=7790
+WEB_PORT=${WEB_PORT:-8888}; GW_PORT=${GW_PORT:-7780}; DASH_PORT=${DASH_PORT:-7790}   # env overrides let a second stack avoid a stale tab
 STATE_DIR="$RS_SDK/bots/.live"; PID_DIR="$STATE_DIR/pids"; mkdir -p "$PID_DIR"
 
 kill_pidfiles() {
@@ -70,11 +70,11 @@ fi
 printf 'BOT_USERNAME=%s\nPASSWORD=test\nSERVER=localhost:%s\nGATEWAY_URL=ws://localhost:%s\nSHOW_CHAT=false\nTELEMETRY=false\n' "$BOT" "$WEB_PORT" "$GW_PORT" > "$RS_SDK/bots/$BOT/bot.env"
 
 echo "game speed ${SPEED}x (NODE_TICKRATE=$TICKRATE), XP rate ${XPRATE}x (NODE_XPRATE=$XPRATE), bot $BOT"
-(cd "$RS_SDK/server/engine" && exec env BUILD_VERIFY=false NODE_TICKRATE="$TICKRATE" NODE_XPRATE="$XPRATE" bun run src/app.ts) > "$RUN/engine.log" 2>&1 &
+(cd "$RS_SDK/server/engine" && exec env BUILD_VERIFY=false NODE_TICKRATE="$TICKRATE" NODE_XPRATE="$XPRATE" WEB_PORT="$WEB_PORT" WEB_MANAGEMENT_PORT="$((WEB_PORT + 10))" HISCORES_WEB_PORT="$((WEB_PORT + 11))" bun run src/app.ts) > "$RUN/engine.log" 2>&1 &
 echo $! > "$PID_DIR/engine.pid"
 for i in $(seq 1 120); do grep -q "World ready" "$RUN/engine.log" 2>/dev/null && curl -sf -o /dev/null "http://localhost:$WEB_PORT/crc" && break; sleep 1; done
 curl -sf -o /dev/null "http://localhost:$WEB_PORT/crc" || { echo "engine did not come up; see $RUN/engine.log" >&2; exit 1; }
-(cd "$RS_SDK/server/gateway" && exec bun run gateway.ts) > "$RUN/gateway.log" 2>&1 &
+(cd "$RS_SDK/server/gateway" && exec env AGENT_PORT="$GW_PORT" bun run gateway.ts) > "$RUN/gateway.log" 2>&1 &
 echo $! > "$PID_DIR/gateway.pid"
 for i in $(seq 1 30); do curl -sf -o /dev/null "http://localhost:$GW_PORT/status" && break; sleep 1; done
 
